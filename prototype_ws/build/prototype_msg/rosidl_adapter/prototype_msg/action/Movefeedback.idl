@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from prototype_msg/action/Movefeedback.action
+// generated code does not contain a copyright notice
+
+
+module prototype_msg {
+  module action {
+    @verbatim (language="comment", text=
+      "Request")
+    struct Movefeedback_Goal {
+      float linear_x;
+
+      float target_x;
+
+      float target_y;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Movefeedback_Result {
+      float pos_x;
+
+      float pos_y;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Movefeedback_Feedback {
+      float error_s;
+
+      float error_theta;
+    };
+  };
+};

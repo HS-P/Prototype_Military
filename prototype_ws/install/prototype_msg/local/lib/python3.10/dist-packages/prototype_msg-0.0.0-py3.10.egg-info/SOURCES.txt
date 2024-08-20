@@ -1,0 +1,1 @@
+/home/hansol/project/build/prototype_msg/ament_cmake_python/prototype_msg/prototype_msg.egg-info/SOURCES.txt

@@ -1,0 +1,70 @@
+[0.022s] Invoking command in '/home/hansol/project/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hansol/project/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansol/project/install/dynamixel_sdk
+[0.535s] -- The C compiler identification is GNU 11.4.0
+[0.535s] -- The CXX compiler identification is GNU 11.4.0
+[0.535s] -- Detecting C compiler ABI info
+[0.535s] -- Detecting C compiler ABI info - done
+[0.536s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.536s] -- Detecting C compile features
+[0.536s] -- Detecting C compile features - done
+[0.536s] -- Detecting CXX compiler ABI info
+[0.537s] -- Detecting CXX compiler ABI info - done
+[0.538s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.538s] -- Detecting CXX compile features
+[0.539s] -- Detecting CXX compile features - done
+[0.539s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.539s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.545s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.649s] -- Configuring done
+[0.655s] -- Generating done
+[0.657s] -- Build files have been written to: /home/hansol/project/build/dynamixel_sdk
+[0.661s] Invoked command in '/home/hansol/project/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hansol/project/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansol/project/install/dynamixel_sdk
+[0.663s] Invoking command in '/home/hansol/project/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hansol/project/build/dynamixel_sdk -- -j12 -l12
+[0.708s] [ 10%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[0.708s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[0.708s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[0.710s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[0.710s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[0.710s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[0.710s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[0.719s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[0.728s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[1.353s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[1.463s] [100%] Built target dynamixel_sdk
+[1.477s] Invoked command in '/home/hansol/project/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hansol/project/build/dynamixel_sdk -- -j12 -l12
+[1.525s] Invoking command in '/home/hansol/project/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hansol/project/build/dynamixel_sdk
+[1.534s] -- Install configuration: ""
+[1.535s] -- Execute custom install script
+[1.536s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.546s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.557s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.568s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.578s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.588s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.599s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.609s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.620s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.631s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.640s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.652s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.663s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.675s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[1.685s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[1.697s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[1.707s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.719s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.731s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.743s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[1.756s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.767s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[1.781s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.797s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.808s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.819s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[1.830s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[1.843s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.855s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.867s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.878s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.890s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.901s] -- Symlinking: /home/hansol/project/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[1.914s] Invoked command in '/home/hansol/project/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hansol/project/build/dynamixel_sdk

@@ -1,0 +1,20 @@
+[0.979s] Invoking command in '/home/hansol/project/build/prototype_move': PYTHONPATH=/home/hansol/project/build/prototype_move/prefix_override:/home/hansol/project/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/hansol/project/build/prototype_move/build --no-deps symlink_data
+[1.218s] running develop
+[1.350s] running egg_info
+[1.350s] writing prototype_move.egg-info/PKG-INFO
+[1.350s] writing dependency_links to prototype_move.egg-info/dependency_links.txt
+[1.351s] writing entry points to prototype_move.egg-info/entry_points.txt
+[1.351s] writing requirements to prototype_move.egg-info/requires.txt
+[1.351s] writing top-level names to prototype_move.egg-info/top_level.txt
+[1.352s] reading manifest file 'prototype_move.egg-info/SOURCES.txt'
+[1.352s] writing manifest file 'prototype_move.egg-info/SOURCES.txt'
+[1.353s] running build_ext
+[1.354s] Creating /home/hansol/project/install/prototype_move/lib/python3.10/site-packages/prototype-move.egg-link (link to .)
+[1.355s] Installing action script to /home/hansol/project/install/prototype_move/lib/prototype_move
+[1.355s] Installing lidar_filter script to /home/hansol/project/install/prototype_move/lib/prototype_move
+[1.355s] Installing move script to /home/hansol/project/install/prototype_move/lib/prototype_move
+[1.355s] Installing test script to /home/hansol/project/install/prototype_move/lib/prototype_move
+[1.355s] 
+[1.355s] Installed /home/hansol/project/build/prototype_move
+[1.356s] running symlink_data
+[1.392s] Invoked command in '/home/hansol/project/build/prototype_move' returned '0': PYTHONPATH=/home/hansol/project/build/prototype_move/prefix_override:/home/hansol/project/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/hansol/project/build/prototype_move/build --no-deps symlink_data

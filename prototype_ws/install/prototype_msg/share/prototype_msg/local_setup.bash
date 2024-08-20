@@ -1,0 +1,1 @@
+/home/hansol/project/build/prototype_msg/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,7 @@
+{
+  "package_name": "prototype_msg",
+  "non_idl_tuples": [
+    "/home/hansol/project/src/prototype_msg:action/Odometryaction.action",
+    "/home/hansol/project/src/prototype_msg:action/Movefeedback.action"
+  ]
+}

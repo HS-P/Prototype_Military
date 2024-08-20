@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing limo_ros2_application.egg-info/PKG-INFO
+writing dependency_links to limo_ros2_application.egg-info/dependency_links.txt
+writing entry points to limo_ros2_application.egg-info/entry_points.txt
+writing requirements to limo_ros2_application.egg-info/requires.txt
+writing top-level names to limo_ros2_application.egg-info/top_level.txt
+reading manifest file 'limo_ros2_application.egg-info/SOURCES.txt'
+writing manifest file 'limo_ros2_application.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hansol/project/install/limo_ros2_application/lib/python3.10/site-packages/limo-ros2-application.egg-link (link to .)
+Installing detect_line script to /home/hansol/project/install/limo_ros2_application/lib/limo_ros2_application
+Installing limo_control script to /home/hansol/project/install/limo_ros2_application/lib/limo_ros2_application
+Installing limo_e_stop script to /home/hansol/project/install/limo_ros2_application/lib/limo_ros2_application
+Installing move_limo script to /home/hansol/project/install/limo_ros2_application/lib/limo_ros2_application
+
+Installed /home/hansol/project/build/limo_ros2_application
+running symlink_data
+symbolically linking /home/hansol/project/build/limo_ros2_application/resource/limo_ros2_application -> /home/hansol/project/install/limo_ros2_application/share/ament_index/resource_index/packages
+symbolically linking /home/hansol/project/build/limo_ros2_application/package.xml -> /home/hansol/project/install/limo_ros2_application/share/limo_ros2_application
+symbolically linking /home/hansol/project/build/limo_ros2_application/launch/application_launch.py -> /home/hansol/project/install/limo_ros2_application/share/limo_ros2_application/launch

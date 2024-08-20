@@ -1,0 +1,1 @@
+/home/hansol/project/build/prototype_msg/ament_cmake_core/prototype_msgConfig-version.cmake

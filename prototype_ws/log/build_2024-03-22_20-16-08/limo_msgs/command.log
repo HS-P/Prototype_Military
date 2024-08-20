@@ -1,0 +1,2 @@
+Invoking command in '/home/hansol/project/build/limo_msgs': CMAKE_PREFIX_PATH=/home/hansol/project/install/prototype_move /usr/bin/cmake /home/hansol/project/src/limo_ros2/limo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansol/project/install/limo_msgs
+Invoked command in '/home/hansol/project/build/limo_msgs' returned '1': CMAKE_PREFIX_PATH=/home/hansol/project/install/prototype_move /usr/bin/cmake /home/hansol/project/src/limo_ros2/limo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansol/project/install/limo_msgs

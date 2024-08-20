@@ -1,0 +1,10 @@
+setup.py
+prototype_msg/__init__.py
+prototype_msg.egg-info/PKG-INFO
+prototype_msg.egg-info/SOURCES.txt
+prototype_msg.egg-info/dependency_links.txt
+prototype_msg.egg-info/top_level.txt
+prototype_msg/action/__init__.py
+prototype_msg/action/_movefeedback.py
+prototype_msg/action/_odometry.py
+prototype_msg/action/_odometryaction.py

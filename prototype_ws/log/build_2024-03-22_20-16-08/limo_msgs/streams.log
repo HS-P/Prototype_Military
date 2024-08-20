@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/hansol/project/build/limo_msgs': CMAKE_PREFIX_PATH=/home/hansol/project/install/prototype_move /usr/bin/cmake /home/hansol/project/src/limo_ros2/limo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansol/project/install/limo_msgs
+[0.289s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.289s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.290s]   has asked CMake to find a package configuration file provided by
+[0.290s]   "ament_cmake", but CMake did not find one.
+[0.290s] 
+[0.291s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.291s]   any of the following names:
+[0.292s] 
+[0.292s]     ament_cmakeConfig.cmake
+[0.292s]     ament_cmake-config.cmake
+[0.292s] 
+[0.292s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.293s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.293s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.294s]   has been installed.
+[0.294s] 
+[0.294s] [0m
+[0.307s] -- The C compiler identification is GNU 11.4.0
+[0.307s] -- The CXX compiler identification is GNU 11.4.0
+[0.307s] -- Detecting C compiler ABI info
+[0.307s] -- Detecting C compiler ABI info - done
+[0.308s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.308s] -- Detecting C compile features
+[0.308s] -- Detecting C compile features - done
+[0.309s] -- Detecting CXX compiler ABI info
+[0.311s] -- Detecting CXX compiler ABI info - done
+[0.311s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.312s] -- Detecting CXX compile features
+[0.312s] -- Detecting CXX compile features - done
+[0.313s] -- Configuring incomplete, errors occurred!
+[0.313s] See also "/home/hansol/project/build/limo_msgs/CMakeFiles/CMakeOutput.log".
+[0.316s] Invoked command in '/home/hansol/project/build/limo_msgs' returned '1': CMAKE_PREFIX_PATH=/home/hansol/project/install/prototype_move /usr/bin/cmake /home/hansol/project/src/limo_ros2/limo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansol/project/install/limo_msgs

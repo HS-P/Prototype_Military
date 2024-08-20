@@ -1,0 +1,21 @@
+[0.759s] Invoking command in '/home/hansol/project/build/prototype_move': PYTHONPATH=/home/hansol/project/build/prototype_move/prefix_override:/home/hansol/project/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/hansol/project/build/prototype_move/build --no-deps symlink_data --force
+[0.966s] running develop
+[1.078s] running egg_info
+[1.078s] writing prototype_move.egg-info/PKG-INFO
+[1.078s] writing dependency_links to prototype_move.egg-info/dependency_links.txt
+[1.078s] writing entry points to prototype_move.egg-info/entry_points.txt
+[1.078s] writing requirements to prototype_move.egg-info/requires.txt
+[1.078s] writing top-level names to prototype_move.egg-info/top_level.txt
+[1.079s] reading manifest file 'prototype_move.egg-info/SOURCES.txt'
+[1.080s] writing manifest file 'prototype_move.egg-info/SOURCES.txt'
+[1.081s] running build_ext
+[1.081s] Creating /home/hansol/project/install/prototype_move/lib/python3.10/site-packages/prototype-move.egg-link (link to .)
+[1.082s] Installing lidar_filter script to /home/hansol/project/install/prototype_move/lib/prototype_move
+[1.082s] Installing move script to /home/hansol/project/install/prototype_move/lib/prototype_move
+[1.082s] 
+[1.082s] Installed /home/hansol/project/build/prototype_move
+[1.082s] running symlink_data
+[1.082s] symbolically linking /home/hansol/project/build/prototype_move/resource/prototype_move -> /home/hansol/project/install/prototype_move/share/ament_index/resource_index/packages
+[1.083s] symbolically linking /home/hansol/project/build/prototype_move/package.xml -> /home/hansol/project/install/prototype_move/share/prototype_move
+[1.083s] error: can't copy '/home/hansol/project/build/prototype_move/launch/robot_1.launch.py': doesn't exist or not a regular file
+[1.108s] Invoked command in '/home/hansol/project/build/prototype_move' returned '1': PYTHONPATH=/home/hansol/project/build/prototype_move/prefix_override:/home/hansol/project/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/hansol/project/build/prototype_move/build --no-deps symlink_data --force

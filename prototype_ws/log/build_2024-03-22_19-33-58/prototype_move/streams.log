@@ -1,0 +1,32 @@
+[0.363s] Invoking command in '/home/hansol/project/build/prototype_move': PYTHONPATH=/home/hansol/project/build/prototype_move/prefix_override:/home/hansol/project/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/hansol/project/build/prototype_move/build
+[0.514s] running develop
+[0.601s] Removing /home/hansol/project/install/prototype_move/lib/python3.10/site-packages/prototype-move.egg-link (link to .)
+[0.618s] Invoked command in '/home/hansol/project/build/prototype_move' returned '0': PYTHONPATH=/home/hansol/project/build/prototype_move/prefix_override:/home/hansol/project/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/hansol/project/build/prototype_move/build
+[0.620s] Invoking command in '/home/hansol/project/src/prototype_move': PYTHONPATH=/home/hansol/project/build/prototype_move/prefix_override:/home/hansol/project/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prototype_move build --build-base /home/hansol/project/build/prototype_move/build install --record /home/hansol/project/build/prototype_move/install.log --single-version-externally-managed install_data --force
+[0.759s] running egg_info
+[0.760s] writing ../../build/prototype_move/prototype_move.egg-info/PKG-INFO
+[0.760s] writing dependency_links to ../../build/prototype_move/prototype_move.egg-info/dependency_links.txt
+[0.760s] writing entry points to ../../build/prototype_move/prototype_move.egg-info/entry_points.txt
+[0.760s] writing requirements to ../../build/prototype_move/prototype_move.egg-info/requires.txt
+[0.760s] writing top-level names to ../../build/prototype_move/prototype_move.egg-info/top_level.txt
+[0.761s] reading manifest file '../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'
+[0.761s] writing manifest file '../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'
+[0.761s] running build
+[0.762s] running build_py
+[0.762s] creating /home/hansol/project/build/prototype_move/build
+[0.762s] creating /home/hansol/project/build/prototype_move/build/lib
+[0.762s] creating /home/hansol/project/build/prototype_move/build/lib/prototype_move
+[0.762s] copying prototype_move/__init__.py -> /home/hansol/project/build/prototype_move/build/lib/prototype_move
+[0.762s] running install
+[0.762s] running install_lib
+[0.762s] creating /home/hansol/project/install/prototype_move/lib/python3.10/site-packages/prototype_move
+[0.762s] copying /home/hansol/project/build/prototype_move/build/lib/prototype_move/__init__.py -> /home/hansol/project/install/prototype_move/lib/python3.10/site-packages/prototype_move
+[0.762s] byte-compiling /home/hansol/project/install/prototype_move/lib/python3.10/site-packages/prototype_move/__init__.py to __init__.cpython-310.pyc
+[0.763s] running install_data
+[0.763s] copying resource/prototype_move -> /home/hansol/project/install/prototype_move/share/ament_index/resource_index/packages
+[0.763s] copying package.xml -> /home/hansol/project/install/prototype_move/share/prototype_move
+[0.763s] running install_egg_info
+[0.763s] Copying ../../build/prototype_move/prototype_move.egg-info to /home/hansol/project/install/prototype_move/lib/python3.10/site-packages/prototype_move-0.0.0-py3.10.egg-info
+[0.763s] running install_scripts
+[0.775s] writing list of installed files to '/home/hansol/project/build/prototype_move/install.log'
+[0.789s] Invoked command in '/home/hansol/project/src/prototype_move' returned '0': PYTHONPATH=/home/hansol/project/build/prototype_move/prefix_override:/home/hansol/project/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prototype_move build --build-base /home/hansol/project/build/prototype_move/build install --record /home/hansol/project/build/prototype_move/install.log --single-version-externally-managed install_data --force

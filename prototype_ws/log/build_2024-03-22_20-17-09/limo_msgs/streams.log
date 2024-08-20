@@ -1,0 +1,85 @@
+[0.018s] Invoking command in '/home/hansol/project/build/limo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/hansol/project/install/prototype_move /usr/bin/cmake /home/hansol/project/src/limo_ros2/limo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansol/project/install/limo_msgs
+[0.394s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.394s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.394s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.394s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.395s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.395s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.395s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.395s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.395s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.396s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.585s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.051s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.231s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.262s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.266s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.294s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.295s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.295s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.295s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.310s] -- Found PythonExtra: .so  
+[1.389s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.421s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.423s] -- Added test 'lint_cmake' to check CMake code style
+[1.424s] -- Added test 'xmllint' to check XML markup files
+[1.429s] -- Configuring done
+[1.471s] -- Generating done
+[1.475s] -- Build files have been written to: /home/hansol/project/build/limo_msgs
+[1.481s] Invoked command in '/home/hansol/project/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/hansol/project/install/prototype_move /usr/bin/cmake /home/hansol/project/src/limo_ros2/limo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansol/project/install/limo_msgs
+[1.483s] Invoking command in '/home/hansol/project/build/limo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/hansol/project/install/prototype_move /usr/bin/cmake --build /home/hansol/project/build/limo_msgs -- -j12 -l12
+[1.543s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.551s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.576s] [  6%] Built target ament_cmake_python_symlink_limo_msgs
+[1.802s] [  6%] Built target limo_msgs__cpp
+[1.809s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.812s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.812s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.826s] running egg_info
+[1.827s] creating limo_msgs.egg-info
+[1.827s] writing limo_msgs.egg-info/PKG-INFO
+[1.827s] writing dependency_links to limo_msgs.egg-info/dependency_links.txt
+[1.827s] writing top-level names to limo_msgs.egg-info/top_level.txt
+[1.827s] writing manifest file 'limo_msgs.egg-info/SOURCES.txt'
+[1.829s] reading manifest file 'limo_msgs.egg-info/SOURCES.txt'
+[1.829s] writing manifest file 'limo_msgs.egg-info/SOURCES.txt'
+[1.855s] [ 16%] Built target ament_cmake_python_build_limo_msgs_egg
+[1.899s] [ 19%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_c.dir/rosidl_generator_c/limo_msgs/msg/detail/limo_status__functions.c.o[0m
+[1.954s] [ 22%] [32m[1mLinking C shared library liblimo_msgs__rosidl_generator_c.so[0m
+[1.984s] [ 25%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/limo_msgs/msg/limo_status__type_support.cpp.o[0m
+[1.986s] [ 25%] Built target limo_msgs__rosidl_generator_c
+[1.993s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.997s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.997s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.006s] [ 38%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/limo_msgs/msg/detail/limo_status__type_support.cpp.o[0m
+[2.121s] [ 41%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/limo_msgs/msg/detail/dds_fastrtps/limo_status__type_support.cpp.o[0m
+[2.272s] [ 45%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/limo_msgs/msg/detail/limo_status__type_support_c.cpp.o[0m
+[2.298s] [ 48%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_cpp.so[0m
+[2.332s] [ 51%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/limo_msgs/msg/limo_status__type_support.cpp.o[0m
+[2.369s] [ 51%] Built target limo_msgs__rosidl_typesupport_cpp
+[2.376s] [ 54%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/limo_msgs/msg/detail/limo_status__type_support.c.o[0m
+[2.382s] [ 58%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_c.so[0m
+[2.423s] [ 61%] [32m[1mLinking C shared library liblimo_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.441s] [ 61%] Built target limo_msgs__rosidl_typesupport_c
+[2.476s] [ 61%] Built target limo_msgs__rosidl_typesupport_introspection_c
+[2.566s] [ 64%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.569s] [ 67%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.602s] [ 70%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.626s] [ 70%] Built target limo_msgs__rosidl_typesupport_introspection_cpp
+[2.632s] [ 70%] Built target limo_msgs__rosidl_typesupport_fastrtps_cpp
+[2.665s] [ 70%] Built target limo_msgs__rosidl_typesupport_fastrtps_c
+[2.676s] [ 70%] Built target limo_msgs
+[2.686s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.844s] [ 74%] Built target limo_msgs__py
+[2.856s] [ 77%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_py.dir/rosidl_generator_py/limo_msgs/msg/_limo_status_s.c.o[0m
+[2.920s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/limo_msgs/liblimo_msgs__rosidl_generator_py.so[0m
+[2.945s] [ 80%] Built target limo_msgs__rosidl_generator_py
+[2.956s] [ 87%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.956s] [ 87%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.962s] [ 90%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.012s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.012s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.035s] [ 96%] Built target limo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.035s] [ 96%] Built target limo_msgs__rosidl_typesupport_introspection_c__pyext
+[3.045s] [100%] [32m[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.066s] [100%] Built target limo_msgs__rosidl_typesupport_c__pyext

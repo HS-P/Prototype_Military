@@ -1,0 +1,64 @@
+[0.386s] Invoking command in '/home/hansol/project/build/prototype_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hansol/project/install/prototype_move:/home/hansol/project/install/limo_ros2_application:/opt/ros/humble /usr/bin/cmake /home/hansol/project/src/prototype_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansol/project/install/prototype_msg
+[0.477s] -- The C compiler identification is GNU 11.4.0
+[0.579s] -- The CXX compiler identification is GNU 11.4.0
+[0.588s] -- Detecting C compiler ABI info
+[0.653s] -- Detecting C compiler ABI info - done
+[0.662s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.662s] -- Detecting C compile features
+[0.663s] -- Detecting C compile features - done
+[0.666s] -- Detecting CXX compiler ABI info
+[0.756s] -- Detecting CXX compiler ABI info - done
+[0.762s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.763s] -- Detecting CXX compile features
+[0.763s] -- Detecting CXX compile features - done
+[0.766s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.914s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.988s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.031s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.036s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.044s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.095s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.334s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.334s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.334s]   prototype_msg --arguments-file
+[1.334s]   /home/hansol/project/build/prototype_msg/rosidl_adapter__arguments__prototype_msg.json
+[1.334s]   --output-dir
+[1.334s]   /home/hansol/project/build/prototype_msg/rosidl_adapter/prototype_msg
+[1.334s]   --output-file
+[1.334s]   /home/hansol/project/build/prototype_msg/rosidl_adapter/prototype_msg.idls)
+[1.334s]   returned error code 1:
+[1.335s] 
+[1.335s]   Traceback (most recent call last):
+[1.335s] 
+[1.335s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.335s]       return _run_code(code, main_globals, None,
+[1.335s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[1.335s]       exec(code, run_globals)
+[1.335s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.335s]       sys.exit(main())
+[1.335s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[1.335s]       abs_idl_file = convert_to_idl(
+[1.335s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[1.336s]       return convert_action_to_idl(
+[1.336s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[1.336s]       action = parse_action_string(package_name, input_file.stem, content)
+[1.336s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 902, in parse_action_string
+[1.336s]       goal_message = parse_message_string(
+[1.336s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[1.336s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[1.336s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[1.336s]       self.base_type = BaseType(
+[1.336s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[1.336s]       raise InvalidResourceName(
+[1.336s] 
+[1.337s]   rosidl_adapter.parser.InvalidResourceName: 'odometry_Goal' is an invalid
+[1.337s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.337s] 
+[1.337s] Call Stack (most recent call first):
+[1.337s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.337s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[1.337s] 
+[1.337s] [0m
+[1.337s] -- Configuring incomplete, errors occurred!
+[1.337s] See also "/home/hansol/project/build/prototype_msg/CMakeFiles/CMakeOutput.log".
+[1.344s] Invoked command in '/home/hansol/project/build/prototype_msg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hansol/project/install/prototype_move:/home/hansol/project/install/limo_ros2_application:/opt/ros/humble /usr/bin/cmake /home/hansol/project/src/prototype_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansol/project/install/prototype_msg

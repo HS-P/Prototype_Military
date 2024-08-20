@@ -1,0 +1,8 @@
+[console_scripts]
+DWMR = prototype_move.lecture:main
+action = prototype_move.odom_action_server:main
+lidar_filter = prototype_move.lidar:main
+move = prototype_move.robot_1:main
+real_move = prototype_move.real_auto:main
+test = prototype_move.odometry:main
+

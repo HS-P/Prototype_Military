@@ -1,0 +1,2 @@
+Invoking command in '/home/hansol/project/build/ydlidar_ros2_driver': /usr/bin/cmake /home/hansol/project/src/limo_ros2/ydlidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansol/project/install/ydlidar_ros2_driver
+Invoked command in '/home/hansol/project/build/ydlidar_ros2_driver' returned '1': /usr/bin/cmake /home/hansol/project/src/limo_ros2/ydlidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansol/project/install/ydlidar_ros2_driver

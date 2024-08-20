@@ -1,0 +1,22 @@
+[0.366s] Invoking command in '/home/hansol/project/src/prototype_move': PYTHONPATH=/home/hansol/project/build/prototype_move/prefix_override:/home/hansol/project/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prototype_move build --build-base /home/hansol/project/build/prototype_move/build install --record /home/hansol/project/build/prototype_move/install.log --single-version-externally-managed install_data
+[0.506s] running egg_info
+[0.506s] writing ../../build/prototype_move/prototype_move.egg-info/PKG-INFO
+[0.506s] writing dependency_links to ../../build/prototype_move/prototype_move.egg-info/dependency_links.txt
+[0.507s] writing entry points to ../../build/prototype_move/prototype_move.egg-info/entry_points.txt
+[0.507s] writing requirements to ../../build/prototype_move/prototype_move.egg-info/requires.txt
+[0.507s] writing top-level names to ../../build/prototype_move/prototype_move.egg-info/top_level.txt
+[0.508s] reading manifest file '../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'
+[0.508s] writing manifest file '../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'
+[0.508s] running build
+[0.508s] running build_py
+[0.509s] running install
+[0.509s] running install_lib
+[0.510s] running install_data
+[0.510s] running install_egg_info
+[0.511s] removing '/home/hansol/project/install/prototype_move/lib/python3.10/site-packages/prototype_move-0.0.0-py3.10.egg-info' (and everything under it)
+[0.511s] Copying ../../build/prototype_move/prototype_move.egg-info to /home/hansol/project/install/prototype_move/lib/python3.10/site-packages/prototype_move-0.0.0-py3.10.egg-info
+[0.511s] running install_scripts
+[0.522s] Installing lidar_filter script to /home/hansol/project/install/prototype_move/lib/prototype_move
+[0.523s] Installing move script to /home/hansol/project/install/prototype_move/lib/prototype_move
+[0.523s] writing list of installed files to '/home/hansol/project/build/prototype_move/install.log'
+[0.540s] Invoked command in '/home/hansol/project/src/prototype_move' returned '0': PYTHONPATH=/home/hansol/project/build/prototype_move/prefix_override:/home/hansol/project/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prototype_move build --build-base /home/hansol/project/build/prototype_move/build install --record /home/hansol/project/build/prototype_move/install.log --single-version-externally-managed install_data
