@@ -1,1 +1,0 @@
-/home/hansol/project/src/prototype_move/launch/drive.launch.py

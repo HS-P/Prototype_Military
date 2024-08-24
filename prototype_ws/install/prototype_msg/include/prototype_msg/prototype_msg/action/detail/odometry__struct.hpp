@@ -1,1 +1,0 @@
-/home/hansol/project/build/prototype_msg/rosidl_generator_cpp/prototype_msg/action/detail/odometry__struct.hpp

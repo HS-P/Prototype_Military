@@ -1,1 +1,0 @@
-/home/hansol/project/build/prototype_msg/rosidl_generator_py/prototype_msg/action/_odometry.py

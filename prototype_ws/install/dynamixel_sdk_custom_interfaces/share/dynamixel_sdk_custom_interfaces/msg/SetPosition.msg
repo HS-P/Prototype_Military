@@ -1,1 +1,0 @@
-/home/hansol/project/src/DynamixelSDK/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg

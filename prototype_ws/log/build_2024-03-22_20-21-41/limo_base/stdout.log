@@ -1,5 +1,0 @@
-[ 25%] [32mBuilding CXX object CMakeFiles/limo_base.dir/src/serial_port.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/limo_base.dir/src/limo_base_node.cpp.o[0m
-[ 75%] [32mBuilding CXX object CMakeFiles/limo_base.dir/src/limo_driver.cpp.o[0m
-[100%] [32m[1mLinking CXX executable limo_base[0m
-[100%] Built target limo_base
