@@ -8,6 +8,7 @@ def generate_launch_description():
             executable='teleop_keyboard',
             name='teleop_keyboard_node',
             output='screen',
+            emulate_tty=True
         ),
         
         Node(

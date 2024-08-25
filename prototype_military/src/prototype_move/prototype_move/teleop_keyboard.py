@@ -24,22 +24,22 @@ class TeleopKeyboard(Node):
             while True:
                 key = self.get_key()
                 if key == 'w':
-                    self.twist.linear.x = 0.5
+                    self.twist.linear.x += 0.1
                     self.twist.angular.z = 0.0
                 elif key == 's':
                     self.twist.linear.x = 0.0
                     self.twist.angular.z = 0.0
                 elif key == 'a':
-                    self.twist.linear.x = 0.0
-                    self.twist.angular.z = 0.5
+                    self.twist.angular.z += 0.1
+                elif key == 'd':
+                    self.twist.angular.z -= 0.1
                 elif key == 'q':
                     print("break")
                     break
                 else:
                     self.twist.linear.x = 0.0
                     self.twist.angular.z = 0.0
-                print(self.twist.linear.x)
-                print(self.twist.angular.z)
+                print(f"Linear: {self.twist.linear.x}, Angular: {self.twist.angular.z}")
                 self.publisher_.publish(self.twist)
 
         except KeyboardInterrupt:
