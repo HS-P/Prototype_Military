@@ -1,1 +1,1 @@
-/home/hansol/prototype_military/src/prototype_move/setup.py
+/home/pi/Prototype_Military/prototype_military/src/prototype_move/setup.py

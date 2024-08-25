@@ -10,6 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(Boost REQUIRED COMPONENTS system)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -24,10 +25,12 @@ if(BUILD_TESTING)
 endif()
 
 # Setting include Directory
-include_directories(include)
+include_directories(include ${Boost_INCLUDE_DIRS})
 
 # Executive File 
 add_executable(nurimotor src/nurimotor_control.cpp)
+
+target_link_libraries(nurimotor ${Boost_LIBRARIES})
 
 ament_target_dependencies(nurimotor rclcpp std_msgs sensor_msgs)
 

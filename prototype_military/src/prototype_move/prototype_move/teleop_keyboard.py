@@ -9,7 +9,7 @@ class TeleopKeyboard(Node):
 
     def __init__(self):
         super().__init__('teleop_keyboard')
-        self.publisher_ = self.create_publisher(Twist, 'nurimotor', 10)
+        self.publisher_ = self.create_publisher(Twist, 'nuri_vel', 10)
         self.twist = Twist()
         self.get_logger().info('Use WASD keys to move the robot')
 
@@ -32,13 +32,14 @@ class TeleopKeyboard(Node):
                 elif key == 'a':
                     self.twist.linear.x = 0.0
                     self.twist.angular.z = 0.5
-                elif key == 'd':
-                    self.twist.linear.x = 0.0
-                    self.twist.angular.z = -0.5
+                elif key == 'q':
+                    print("break")
+                    break
                 else:
                     self.twist.linear.x = 0.0
                     self.twist.angular.z = 0.0
-
+                print(self.twist.linear.x)
+                print(self.twist.angular.z)
                 self.publisher_.publish(self.twist)
 
         except KeyboardInterrupt:

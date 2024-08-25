@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/hansol/prototype_military/install/prototype_move'
+    sys.prefix = sys.exec_prefix = '/home/pi/Prototype_Military/prototype_military/install/prototype_move'

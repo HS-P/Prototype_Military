@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hansol/prototype_military/src/prototype_motor
+CMAKE_SOURCE_DIR = /home/pi/Prototype_Military/prototype_military/src/prototype_motor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hansol/prototype_military/build/prototype_motor
+CMAKE_BINARY_DIR = /home/pi/Prototype_Military/prototype_military/build/prototype_motor
 
 # Include any dependencies generated for this target.
 include CMakeFiles/nurimotor.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/nurimotor.dir/progress.make
 include CMakeFiles/nurimotor.dir/flags.make
 
 CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o: CMakeFiles/nurimotor.dir/flags.make
-CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o: /home/hansol/prototype_military/src/prototype_motor/src/nurimotor_control.cpp
+CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o: /home/pi/Prototype_Military/prototype_military/src/prototype_motor/src/nurimotor_control.cpp
 CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o: CMakeFiles/nurimotor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hansol/prototype_military/build/prototype_motor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o -MF CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o.d -o CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o -c /home/hansol/prototype_military/src/prototype_motor/src/nurimotor_control.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Prototype_Military/prototype_military/build/prototype_motor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o -MF CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o.d -o CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o -c /home/pi/Prototype_Military/prototype_military/src/prototype_motor/src/nurimotor_control.cpp
 
 CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hansol/prototype_military/src/prototype_motor/src/nurimotor_control.cpp > CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/Prototype_Military/prototype_military/src/prototype_motor/src/nurimotor_control.cpp > CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.i
 
 CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hansol/prototype_military/src/prototype_motor/src/nurimotor_control.cpp -o CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/Prototype_Military/prototype_military/src/prototype_motor/src/nurimotor_control.cpp -o CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.s
 
 # Object files for target nurimotor
 nurimotor_OBJECTS = \
@@ -92,6 +92,7 @@ nurimotor_EXTERNAL_OBJECTS =
 
 nurimotor: CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o
 nurimotor: CMakeFiles/nurimotor.dir/build.make
+nurimotor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.74.0
 nurimotor: /opt/ros/humble/lib/librclcpp.so
 nurimotor: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 nurimotor: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -154,7 +155,7 @@ nurimotor: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 nurimotor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 nurimotor: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 nurimotor: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-nurimotor: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+nurimotor: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 nurimotor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 nurimotor: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 nurimotor: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
@@ -171,7 +172,7 @@ nurimotor: /opt/ros/humble/lib/librcpputils.so
 nurimotor: /opt/ros/humble/lib/librosidl_runtime_c.so
 nurimotor: /opt/ros/humble/lib/librcutils.so
 nurimotor: CMakeFiles/nurimotor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hansol/prototype_military/build/prototype_motor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nurimotor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/Prototype_Military/prototype_military/build/prototype_motor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nurimotor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nurimotor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +184,6 @@ CMakeFiles/nurimotor.dir/clean:
 .PHONY : CMakeFiles/nurimotor.dir/clean
 
 CMakeFiles/nurimotor.dir/depend:
-	cd /home/hansol/prototype_military/build/prototype_motor && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hansol/prototype_military/src/prototype_motor /home/hansol/prototype_military/src/prototype_motor /home/hansol/prototype_military/build/prototype_motor /home/hansol/prototype_military/build/prototype_motor /home/hansol/prototype_military/build/prototype_motor/CMakeFiles/nurimotor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/Prototype_Military/prototype_military/build/prototype_motor && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Prototype_Military/prototype_military/src/prototype_motor /home/pi/Prototype_Military/prototype_military/src/prototype_motor /home/pi/Prototype_Military/prototype_military/build/prototype_motor /home/pi/Prototype_Military/prototype_military/build/prototype_motor /home/pi/Prototype_Military/prototype_military/build/prototype_motor/CMakeFiles/nurimotor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nurimotor.dir/depend
 

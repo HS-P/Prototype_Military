@@ -1,1 +1,1 @@
-/home/hansol/prototype_military/build/prototype_motor/ament_cmake_environment_hooks/local_setup.bash
+/home/pi/Prototype_Military/prototype_military/build/prototype_motor/ament_cmake_environment_hooks/local_setup.bash

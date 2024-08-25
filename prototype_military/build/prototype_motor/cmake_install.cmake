@@ -1,8 +1,8 @@
-# Install script for directory: /home/hansol/prototype_military/src/prototype_motor
+# Install script for directory: /home/pi/Prototype_Military/prototype_military/src/prototype_motor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hansol/prototype_military/install/prototype_motor")
+  set(CMAKE_INSTALL_PREFIX "/home/pi/Prototype_Military/prototype_military/install/prototype_motor")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/hansol/prototype_military/build/prototype_motor/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/pi/Prototype_Military/prototype_military/build/prototype_motor/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hansol/prototype_military/build/prototype_motor/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pi/Prototype_Military/prototype_military/build/prototype_motor/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

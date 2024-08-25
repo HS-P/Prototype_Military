@@ -1,0 +1,39 @@
+[3.133s] Invoking command in '/home/pi/Prototype_Military/prototype_military/src/prototype_move': PYTHONPATH=/home/pi/Prototype_Military/prototype_military/build/prototype_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prototype_move build --build-base /home/pi/Prototype_Military/prototype_military/build/prototype_move/build install --record /home/pi/Prototype_Military/prototype_military/build/prototype_move/install.log --single-version-externally-managed install_data
+[4.285s] running egg_info
+[4.287s] creating ../../build/prototype_move/prototype_move.egg-info
+[4.288s] writing ../../build/prototype_move/prototype_move.egg-info/PKG-INFO
+[4.289s] writing dependency_links to ../../build/prototype_move/prototype_move.egg-info/dependency_links.txt
+[4.290s] writing entry points to ../../build/prototype_move/prototype_move.egg-info/entry_points.txt
+[4.290s] writing requirements to ../../build/prototype_move/prototype_move.egg-info/requires.txt
+[4.291s] writing top-level names to ../../build/prototype_move/prototype_move.egg-info/top_level.txt
+[4.292s] writing manifest file '../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'
+[4.300s] reading manifest file '../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'
+[4.303s] writing manifest file '../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'
+[4.304s] running build
+[4.304s] running build_py
+[4.305s] creating /home/pi/Prototype_Military/prototype_military/build/prototype_move/build
+[4.305s] creating /home/pi/Prototype_Military/prototype_military/build/prototype_move/build/lib
+[4.306s] creating /home/pi/Prototype_Military/prototype_military/build/prototype_move/build/lib/prototype_move
+[4.306s] copying prototype_move/__init__.py -> /home/pi/Prototype_Military/prototype_military/build/prototype_move/build/lib/prototype_move
+[4.307s] copying prototype_move/teleop_keyboard.py -> /home/pi/Prototype_Military/prototype_military/build/prototype_move/build/lib/prototype_move
+[4.308s] running install
+[4.309s] running install_lib
+[4.312s] creating /home/pi/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move
+[4.312s] copying /home/pi/Prototype_Military/prototype_military/build/prototype_move/build/lib/prototype_move/__init__.py -> /home/pi/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move
+[4.313s] copying /home/pi/Prototype_Military/prototype_military/build/prototype_move/build/lib/prototype_move/teleop_keyboard.py -> /home/pi/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move
+[4.315s] byte-compiling /home/pi/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move/__init__.py to __init__.cpython-310.pyc
+[4.317s] byte-compiling /home/pi/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[4.319s] running install_data
+[4.320s] creating /home/pi/Prototype_Military/prototype_military/install/prototype_move/share/ament_index
+[4.321s] creating /home/pi/Prototype_Military/prototype_military/install/prototype_move/share/ament_index/resource_index
+[4.321s] creating /home/pi/Prototype_Military/prototype_military/install/prototype_move/share/ament_index/resource_index/packages
+[4.322s] copying resource/prototype_move -> /home/pi/Prototype_Military/prototype_military/install/prototype_move/share/ament_index/resource_index/packages
+[4.322s] copying package.xml -> /home/pi/Prototype_Military/prototype_military/install/prototype_move/share/prototype_move
+[4.323s] creating /home/pi/Prototype_Military/prototype_military/install/prototype_move/share/prototype_move/launch
+[4.324s] copying launch/prototype_move_launch.py -> /home/pi/Prototype_Military/prototype_military/install/prototype_move/share/prototype_move/launch
+[4.324s] running install_egg_info
+[4.331s] Copying ../../build/prototype_move/prototype_move.egg-info to /home/pi/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move-0.0.0-py3.10.egg-info
+[4.337s] running install_scripts
+[4.417s] Installing teleop_keyboard script to /home/pi/Prototype_Military/prototype_military/install/prototype_move/lib/prototype_move
+[4.419s] writing list of installed files to '/home/pi/Prototype_Military/prototype_military/build/prototype_move/install.log'
+[4.551s] Invoked command in '/home/pi/Prototype_Military/prototype_military/src/prototype_move' returned '0': PYTHONPATH=/home/pi/Prototype_Military/prototype_military/build/prototype_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prototype_move build --build-base /home/pi/Prototype_Military/prototype_military/build/prototype_move/build install --record /home/pi/Prototype_Military/prototype_military/build/prototype_move/install.log --single-version-externally-managed install_data

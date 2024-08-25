@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hansol/prototype_military/src/prototype_motor
+CMAKE_SOURCE_DIR = /home/pi/Prototype_Military/prototype_military/src/prototype_motor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hansol/prototype_military/build/prototype_motor
+CMAKE_BINARY_DIR = /home/pi/Prototype_Military/prototype_military/build/prototype_motor
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/hansol/prototype_military/build/prototype_motor && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hansol/prototype_military/src/prototype_motor /home/hansol/prototype_military/src/prototype_motor /home/hansol/prototype_military/build/prototype_motor /home/hansol/prototype_military/build/prototype_motor /home/hansol/prototype_military/build/prototype_motor/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/Prototype_Military/prototype_military/build/prototype_motor && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Prototype_Military/prototype_military/src/prototype_motor /home/pi/Prototype_Military/prototype_military/src/prototype_motor /home/pi/Prototype_Military/prototype_military/build/prototype_motor /home/pi/Prototype_Military/prototype_military/build/prototype_motor /home/pi/Prototype_Military/prototype_military/build/prototype_motor/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

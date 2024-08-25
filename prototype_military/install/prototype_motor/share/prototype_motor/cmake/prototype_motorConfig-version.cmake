@@ -1,1 +1,1 @@
-/home/hansol/prototype_military/build/prototype_motor/ament_cmake_core/prototype_motorConfig-version.cmake
+/home/pi/Prototype_Military/prototype_military/build/prototype_motor/ament_cmake_core/prototype_motorConfig-version.cmake

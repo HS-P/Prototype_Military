@@ -1,3 +1,3 @@
 # generated from colcon_core/shell/template/hook_prepend_value.sh.em
 
-_colcon_prepend_unique_value PYTHONPATH "/home/hansol/prototype_military/build/prototype_move"
+_colcon_prepend_unique_value PYTHONPATH "/home/pi/Prototype_Military/prototype_military/build/prototype_move"
