@@ -1,3 +1,9 @@
 [submodule "prototype_military/src/realsense-ros"]
 	path = prototype_military/src/realsense-ros
 	url = https://github.com/IntelRealSense/realsense-ros.git
+[submodule "yolov8_ros"]
+	path = yolov8_ros
+	url = https://github.com/mgonzs13/yolov8_ros
+[submodule "prototype_military/src/yolov8_ros"]
+	path = prototype_military/src/yolov8_ros
+	url = https://github.com/mgonzs13/yolov8_ros
