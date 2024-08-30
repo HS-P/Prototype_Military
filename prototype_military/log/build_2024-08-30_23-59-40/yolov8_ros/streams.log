@@ -1,0 +1,51 @@
+[1.660s] Invoking command in '/home/orin/Prototype_Military/prototype_military/src/yolov8_ros/yolov8_ros': AMENT_PREFIX_PATH=/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs LD_LIBRARY_PATH=/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orin/Prototype_Military/prototype_military/build/yolov8_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages:/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build install --record /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/install.log --single-version-externally-managed install_data
+[1.974s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:260: UserWarning: Unknown distribution option: 'tests_require'
+[1.974s]   warnings.warn(msg)
+[2.188s] running egg_info
+[2.188s] creating ../../../build/yolov8_ros/yolov8_ros.egg-info
+[2.222s] writing ../../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+[2.223s] writing dependency_links to ../../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+[2.223s] writing entry points to ../../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+[2.224s] writing requirements to ../../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+[2.224s] writing top-level names to ../../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+[2.224s] writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[2.297s] reading manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[2.299s] writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[2.299s] running build
+[2.300s] running build_py
+[2.300s] creating /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build
+[2.300s] creating /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib
+[2.300s] creating /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros
+[2.300s] copying yolov8_ros/yolov8_node.py -> /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros
+[2.301s] copying yolov8_ros/detect_3d_node.py -> /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros
+[2.301s] copying yolov8_ros/__init__.py -> /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros
+[2.301s] copying yolov8_ros/debug_node.py -> /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros
+[2.302s] copying yolov8_ros/tracking_node.py -> /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros
+[2.302s] running install
+[2.312s] running install_lib
+[2.346s] creating /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[2.347s] copying /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros/yolov8_node.py -> /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[2.347s] copying /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros/detect_3d_node.py -> /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[2.347s] copying /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros/__init__.py -> /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[2.348s] copying /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros/debug_node.py -> /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[2.348s] copying /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros/tracking_node.py -> /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[2.349s] byte-compiling /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/yolov8_node.py to yolov8_node.cpython-310.pyc
+[2.353s] byte-compiling /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/detect_3d_node.py to detect_3d_node.cpython-310.pyc
+[2.357s] byte-compiling /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/__init__.py to __init__.cpython-310.pyc
+[2.357s] byte-compiling /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/debug_node.py to debug_node.cpython-310.pyc
+[2.361s] byte-compiling /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/tracking_node.py to tracking_node.cpython-310.pyc
+[2.363s] running install_data
+[2.364s] creating /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/share/ament_index
+[2.364s] creating /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/share/ament_index/resource_index
+[2.364s] creating /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/share/ament_index/resource_index/packages
+[2.364s] copying resource/yolov8_ros -> /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/share/ament_index/resource_index/packages
+[2.365s] copying package.xml -> /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/share/yolov8_ros
+[2.365s] running install_egg_info
+[2.403s] Copying ../../../build/yolov8_ros/yolov8_ros.egg-info to /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info
+[2.405s] running install_scripts
+[2.708s] Installing debug_node script to /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/yolov8_ros
+[2.709s] Installing detect_3d_node script to /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/yolov8_ros
+[2.709s] Installing tracking_node script to /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/yolov8_ros
+[2.709s] Installing yolov8_node script to /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/yolov8_ros
+[2.710s] writing list of installed files to '/home/orin/Prototype_Military/prototype_military/build/yolov8_ros/install.log'
+[2.780s] Invoked command in '/home/orin/Prototype_Military/prototype_military/src/yolov8_ros/yolov8_ros' returned '0': AMENT_PREFIX_PATH=/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs LD_LIBRARY_PATH=/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orin/Prototype_Military/prototype_military/build/yolov8_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages:/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build install --record /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/install.log --single-version-externally-managed install_data

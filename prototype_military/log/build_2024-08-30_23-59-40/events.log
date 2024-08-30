@@ -1,0 +1,980 @@
+[0.000000] (-) TimerEvent: {}
+[0.000567] (prototype_motor) JobQueued: {'identifier': 'prototype_motor', 'dependencies': OrderedDict()}
+[0.001104] (prototype_move) JobQueued: {'identifier': 'prototype_move', 'dependencies': OrderedDict()}
+[0.001351] (yolov8_msgs) JobQueued: {'identifier': 'yolov8_msgs', 'dependencies': OrderedDict()}
+[0.001578] (yolov8_ros) JobQueued: {'identifier': 'yolov8_ros', 'dependencies': OrderedDict([('yolov8_msgs', '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs')])}
+[0.001678] (yolov8_bringup) JobQueued: {'identifier': 'yolov8_bringup', 'dependencies': OrderedDict([('yolov8_msgs', '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs'), ('yolov8_ros', '/home/orin/Prototype_Military/prototype_military/install/yolov8_ros')])}
+[0.001762] (yolov8_msgs) JobStarted: {'identifier': 'yolov8_msgs'}
+[0.010861] (prototype_motor) JobStarted: {'identifier': 'prototype_motor'}
+[0.015939] (prototype_move) JobStarted: {'identifier': 'prototype_move'}
+[0.027086] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'cmake'}
+[0.027472] (yolov8_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/orin/Prototype_Military/prototype_military/src/yolov8_ros/yolov8_msgs', '-DCMAKE_INSTALL_PREFIX=/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs'], 'cwd': '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_CLIENT', '192.168.68.106 43208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera/lib:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/Prototype_Military/prototype_military/src'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/orin/Prototype_Military/prototype_military/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1423723005660'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.68.106 43208 192.168.68.114 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/orin/Prototype_Military/prototype_military/build/prototype_move:/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.031450] (prototype_motor) JobProgress: {'identifier': 'prototype_motor', 'progress': 'cmake'}
+[0.031779] (prototype_motor) Command: {'cmd': ['/usr/bin/cmake', '/home/orin/Prototype_Military/prototype_military/src/prototype_motor', '-DCMAKE_INSTALL_PREFIX=/home/orin/Prototype_Military/prototype_military/install/prototype_motor'], 'cwd': '/home/orin/Prototype_Military/prototype_military/build/prototype_motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_CLIENT', '192.168.68.106 43208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera/lib:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/Prototype_Military/prototype_military/src'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/orin/Prototype_Military/prototype_military/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1423723005660'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/Prototype_Military/prototype_military/build/prototype_motor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.68.106 43208 192.168.68.114 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/orin/Prototype_Military/prototype_military/build/prototype_move:/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099510] (-) TimerEvent: {}
+[0.119395] (prototype_motor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.119874] (yolov8_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199646] (-) TimerEvent: {}
+[0.212810] (yolov8_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.213169] (prototype_motor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.225138] (prototype_motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.225491] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299786] (-) TimerEvent: {}
+[0.337850] (prototype_motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.338270] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.350100] (prototype_motor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.350326] (yolov8_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.350562] (prototype_motor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.350741] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.351258] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.351452] (prototype_motor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.357009] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.357256] (prototype_motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399928] (-) TimerEvent: {}
+[0.487431] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.488185] (prototype_motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.499993] (-) TimerEvent: {}
+[0.500359] (yolov8_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.500563] (prototype_motor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.500836] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.501001] (prototype_motor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.501511] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.501688] (prototype_motor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.504891] (yolov8_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.505078] (prototype_motor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600095] (-) TimerEvent: {}
+[0.700548] (-) TimerEvent: {}
+[0.801040] (-) TimerEvent: {}
+[0.901401] (-) TimerEvent: {}
+[1.001785] (-) TimerEvent: {}
+[1.102211] (-) TimerEvent: {}
+[1.202580] (-) TimerEvent: {}
+[1.245485] (yolov8_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.245884] (prototype_motor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.302677] (-) TimerEvent: {}
+[1.402553] (yolov8_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.402837] (-) TimerEvent: {}
+[1.403024] (prototype_motor) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.406437] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.414998] (yolov8_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.465149] (prototype_motor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.472021] (prototype_motor) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.477799] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.484830] (prototype_motor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.502930] (-) TimerEvent: {}
+[1.504456] (prototype_motor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.530716] (prototype_motor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.532198] (yolov8_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.577641] (yolov8_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.600087] (prototype_motor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.603012] (-) TimerEvent: {}
+[1.603654] (prototype_motor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.703168] (-) TimerEvent: {}
+[1.726558] (prototype_move) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/prototype_move', 'build', '--build-base', '/home/orin/Prototype_Military/prototype_military/build/prototype_move/build', 'install', '--record', '/home/orin/Prototype_Military/prototype_military/build/prototype_move/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orin/Prototype_Military/prototype_military/src/prototype_move', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orin', 'SSH_CLIENT': '192.168.68.106 43208 22', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera/lib:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/orin', 'OLDPWD': '/home/orin/Prototype_Military/prototype_military/src', 'SSH_TTY': '/dev/pts/0', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson AGX Orin Developer Kit', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/orin/Prototype_Military/prototype_military/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'orin', 'JETSON_MODULE': 'NVIDIA Jetson AGX Orin (64GB ram)', 'JETSON_SERIAL_NUMBER': '1423723005660', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/orin/Prototype_Military/prototype_military/build/prototype_move', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.68.106 43208 192.168.68.114 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orin/Prototype_Military/prototype_military/build/prototype_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/orin/Prototype_Military/prototype_military/build/prototype_move:/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '6.0', 'JETSON_P_NUMBER': 'p3701-0005'}, 'shell': False}
+[1.731046] (prototype_motor) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.773240] (prototype_motor) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.803255] (-) TimerEvent: {}
+[1.839406] (prototype_motor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.851284] (prototype_motor) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.903368] (-) TimerEvent: {}
+[1.966594] (prototype_motor) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.967385] (prototype_motor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.003458] (-) TimerEvent: {}
+[2.049979] (prototype_move) StderrLine: {'line': b"/home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:260: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.050338] (prototype_move) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.083778] (prototype_motor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.085794] (prototype_motor) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.103532] (-) TimerEvent: {}
+[2.174134] (prototype_motor) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.203642] (-) TimerEvent: {}
+[2.240121] (prototype_motor) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system \n'}
+[2.242768] (prototype_motor) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.275163] (yolov8_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.275487] (prototype_move) StdoutLine: {'line': b'running egg_info\n'}
+[2.276276] (prototype_move) StdoutLine: {'line': b'creating ../../build/prototype_move/prototype_move.egg-info\n'}
+[2.303716] (-) TimerEvent: {}
+[2.312359] (prototype_move) StdoutLine: {'line': b'writing ../../build/prototype_move/prototype_move.egg-info/PKG-INFO\n'}
+[2.313623] (prototype_move) StdoutLine: {'line': b'writing dependency_links to ../../build/prototype_move/prototype_move.egg-info/dependency_links.txt\n'}
+[2.314023] (prototype_move) StdoutLine: {'line': b'writing entry points to ../../build/prototype_move/prototype_move.egg-info/entry_points.txt\n'}
+[2.314373] (prototype_move) StdoutLine: {'line': b'writing requirements to ../../build/prototype_move/prototype_move.egg-info/requires.txt\n'}
+[2.314601] (prototype_move) StdoutLine: {'line': b'writing top-level names to ../../build/prototype_move/prototype_move.egg-info/top_level.txt\n'}
+[2.314911] (prototype_move) StdoutLine: {'line': b"writing manifest file '../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'\n"}
+[2.391440] (prototype_move) StdoutLine: {'line': b"reading manifest file '../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'\n"}
+[2.392499] (prototype_motor) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.392860] (prototype_motor) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/orin/Prototype_Military/prototype_military/src/prototype_motor/include\n'}
+[2.393006] (prototype_motor) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.393690] (prototype_move) StdoutLine: {'line': b"writing manifest file '../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'\n"}
+[2.393981] (prototype_motor) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.394179] (prototype_move) StdoutLine: {'line': b'running build\n'}
+[2.394301] (prototype_move) StdoutLine: {'line': b'running build_py\n'}
+[2.394522] (prototype_move) StdoutLine: {'line': b'creating /home/orin/Prototype_Military/prototype_military/build/prototype_move/build\n'}
+[2.394690] (prototype_move) StdoutLine: {'line': b'creating /home/orin/Prototype_Military/prototype_military/build/prototype_move/build/lib\n'}
+[2.394858] (prototype_move) StdoutLine: {'line': b'creating /home/orin/Prototype_Military/prototype_military/build/prototype_move/build/lib/prototype_move\n'}
+[2.395049] (prototype_move) StdoutLine: {'line': b'copying prototype_move/__init__.py -> /home/orin/Prototype_Military/prototype_military/build/prototype_move/build/lib/prototype_move\n'}
+[2.395270] (prototype_motor) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.395461] (prototype_motor) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.395580] (prototype_move) StdoutLine: {'line': b'copying prototype_move/teleop_keyboard.py -> /home/orin/Prototype_Military/prototype_military/build/prototype_move/build/lib/prototype_move\n'}
+[2.396001] (prototype_move) StdoutLine: {'line': b'running install\n'}
+[2.396155] (prototype_motor) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.398145] (prototype_motor) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.403784] (-) TimerEvent: {}
+[2.405733] (prototype_move) StdoutLine: {'line': b'running install_lib\n'}
+[2.417996] (prototype_motor) StdoutLine: {'line': b'-- Generating done\n'}
+[2.421257] (prototype_motor) StdoutLine: {'line': b'-- Build files have been written to: /home/orin/Prototype_Military/prototype_military/build/prototype_motor\n'}
+[2.442791] (prototype_motor) CommandEnded: {'returncode': 0}
+[2.443656] (prototype_move) StdoutLine: {'line': b'creating /home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move\n'}
+[2.444198] (prototype_motor) JobProgress: {'identifier': 'prototype_motor', 'progress': 'build'}
+[2.444313] (prototype_move) StdoutLine: {'line': b'copying /home/orin/Prototype_Military/prototype_military/build/prototype_move/build/lib/prototype_move/__init__.py -> /home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move\n'}
+[2.446754] (prototype_move) StdoutLine: {'line': b'copying /home/orin/Prototype_Military/prototype_military/build/prototype_move/build/lib/prototype_move/teleop_keyboard.py -> /home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move\n'}
+[2.447680] (prototype_motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin/Prototype_Military/prototype_military/build/prototype_motor', '--', '-j12', '-l12'], 'cwd': '/home/orin/Prototype_Military/prototype_military/build/prototype_motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_CLIENT', '192.168.68.106 43208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera/lib:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/Prototype_Military/prototype_military/src'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/orin/Prototype_Military/prototype_military/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1423723005660'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/Prototype_Military/prototype_military/build/prototype_motor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.68.106 43208 192.168.68.114 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/orin/Prototype_Military/prototype_military/build/prototype_move:/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.448632] (prototype_move) StdoutLine: {'line': b'byte-compiling /home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move/__init__.py to __init__.cpython-310.pyc\n'}
+[2.448883] (prototype_move) StdoutLine: {'line': b'byte-compiling /home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc\n'}
+[2.449076] (prototype_move) StdoutLine: {'line': b'running install_data\n'}
+[2.449246] (prototype_move) StdoutLine: {'line': b'creating /home/orin/Prototype_Military/prototype_military/install/prototype_move/share/ament_index\n'}
+[2.449382] (prototype_move) StdoutLine: {'line': b'creating /home/orin/Prototype_Military/prototype_military/install/prototype_move/share/ament_index/resource_index\n'}
+[2.449540] (prototype_move) StdoutLine: {'line': b'creating /home/orin/Prototype_Military/prototype_military/install/prototype_move/share/ament_index/resource_index/packages\n'}
+[2.449665] (prototype_move) StdoutLine: {'line': b'copying resource/prototype_move -> /home/orin/Prototype_Military/prototype_military/install/prototype_move/share/ament_index/resource_index/packages\n'}
+[2.449785] (prototype_move) StdoutLine: {'line': b'copying package.xml -> /home/orin/Prototype_Military/prototype_military/install/prototype_move/share/prototype_move\n'}
+[2.449920] (prototype_move) StdoutLine: {'line': b'copying package.xml -> /home/orin/Prototype_Military/prototype_military/install/prototype_move/share/prototype_move\n'}
+[2.450045] (prototype_move) StdoutLine: {'line': b'creating /home/orin/Prototype_Military/prototype_military/install/prototype_move/share/prototype_move/launch\n'}
+[2.450178] (prototype_move) StdoutLine: {'line': b'copying launch/prototype_move_launch.py -> /home/orin/Prototype_Military/prototype_military/install/prototype_move/share/prototype_move/launch\n'}
+[2.450298] (prototype_move) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.492900] (prototype_move) StdoutLine: {'line': b'Copying ../../build/prototype_move/prototype_move.egg-info to /home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move-0.0.0-py3.10.egg-info\n'}
+[2.493252] (prototype_move) StdoutLine: {'line': b'running install_scripts\n'}
+[2.503933] (-) TimerEvent: {}
+[2.524607] (prototype_motor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o\x1b[0m\n'}
+[2.604066] (-) TimerEvent: {}
+[2.704527] (-) TimerEvent: {}
+[2.766674] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.799224] (prototype_move) StdoutLine: {'line': b'Installing teleop_keyboard script to /home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/prototype_move\n'}
+[2.800065] (prototype_move) StdoutLine: {'line': b"writing list of installed files to '/home/orin/Prototype_Military/prototype_military/build/prototype_move/install.log'\n"}
+[2.804594] (-) TimerEvent: {}
+[2.861741] (prototype_move) CommandEnded: {'returncode': 0}
+[2.880565] (prototype_move) JobEnded: {'identifier': 'prototype_move', 'rc': 0}
+[2.904751] (-) TimerEvent: {}
+[3.005229] (-) TimerEvent: {}
+[3.105709] (-) TimerEvent: {}
+[3.206213] (-) TimerEvent: {}
+[3.306752] (-) TimerEvent: {}
+[3.407278] (-) TimerEvent: {}
+[3.415318] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.461198] (yolov8_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.462904] (yolov8_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.507344] (-) TimerEvent: {}
+[3.513593] (yolov8_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.513846] (yolov8_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.513985] (yolov8_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.514111] (yolov8_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[3.557433] (yolov8_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.607465] (-) TimerEvent: {}
+[3.682712] (yolov8_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.707533] (-) TimerEvent: {}
+[3.783335] (yolov8_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.788732] (yolov8_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/orin/Prototype_Military/prototype_military/build/yolov8_msgs\n'}
+[3.803619] (yolov8_msgs) CommandEnded: {'returncode': 0}
+[3.804687] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'build'}
+[3.805208] (yolov8_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs', '--', '-j12', '-l12'], 'cwd': '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_CLIENT', '192.168.68.106 43208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera/lib:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/Prototype_Military/prototype_military/src'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/orin/Prototype_Military/prototype_military/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1423723005660'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.68.106 43208 192.168.68.114 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/orin/Prototype_Military/prototype_military/build/prototype_move:/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.807657] (-) TimerEvent: {}
+[3.872522] (yolov8_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.888655] (yolov8_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.900856] (yolov8_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_yolov8_msgs\n'}
+[3.907786] (-) TimerEvent: {}
+[4.008263] (-) TimerEvent: {}
+[4.108802] (-) TimerEvent: {}
+[4.209259] (-) TimerEvent: {}
+[4.309680] (-) TimerEvent: {}
+[4.353732] (yolov8_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.355703] (yolov8_msgs) StdoutLine: {'line': b'creating yolov8_msgs.egg-info\n'}
+[4.392537] (yolov8_msgs) StdoutLine: {'line': b'writing yolov8_msgs.egg-info/PKG-INFO\n'}
+[4.393761] (yolov8_msgs) StdoutLine: {'line': b'writing dependency_links to yolov8_msgs.egg-info/dependency_links.txt\n'}
+[4.394349] (yolov8_msgs) StdoutLine: {'line': b'writing top-level names to yolov8_msgs.egg-info/top_level.txt\n'}
+[4.394597] (yolov8_msgs) StdoutLine: {'line': b"writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'\n"}
+[4.409741] (-) TimerEvent: {}
+[4.507109] (yolov8_msgs) StdoutLine: {'line': b"reading manifest file 'yolov8_msgs.egg-info/SOURCES.txt'\n"}
+[4.509016] (yolov8_msgs) StdoutLine: {'line': b"writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'\n"}
+[4.509816] (-) TimerEvent: {}
+[4.570506] (yolov8_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_yolov8_msgs_egg\n'}
+[4.609948] (-) TimerEvent: {}
+[4.710414] (-) TimerEvent: {}
+[4.810892] (-) TimerEvent: {}
+[4.911357] (-) TimerEvent: {}
+[5.011823] (-) TimerEvent: {}
+[5.112214] (-) TimerEvent: {}
+[5.212568] (-) TimerEvent: {}
+[5.312952] (-) TimerEvent: {}
+[5.413405] (-) TimerEvent: {}
+[5.513849] (-) TimerEvent: {}
+[5.614275] (-) TimerEvent: {}
+[5.714716] (-) TimerEvent: {}
+[5.815147] (-) TimerEvent: {}
+[5.823183] (yolov8_msgs) StdoutLine: {'line': b'[  1%] Built target yolov8_msgs__cpp\n'}
+[5.840574] (yolov8_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.841032] (yolov8_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.841539] (yolov8_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.915306] (-) TimerEvent: {}
+[5.963742] (yolov8_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/point2_d__functions.c.o\x1b[0m\n'}
+[5.964185] (yolov8_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/vector2__functions.c.o\x1b[0m\n'}
+[5.965222] (yolov8_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/bounding_box2_d__functions.c.o\x1b[0m\n'}
+[5.965396] (yolov8_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/mask__functions.c.o\x1b[0m\n'}
+[5.965536] (yolov8_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/pose2_d__functions.c.o\x1b[0m\n'}
+[5.965666] (yolov8_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/bounding_box3_d__functions.c.o\x1b[0m\n'}
+[5.967468] (yolov8_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point2_d__functions.c.o\x1b[0m\n'}
+[5.969697] (yolov8_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point3_d__functions.c.o\x1b[0m\n'}
+[5.978225] (yolov8_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point2_d_array__functions.c.o\x1b[0m\n'}
+[6.015486] (-) TimerEvent: {}
+[6.062318] (yolov8_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point3_d_array__functions.c.o\x1b[0m\n'}
+[6.067710] (yolov8_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/detection__functions.c.o\x1b[0m\n'}
+[6.069559] (yolov8_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/detection_array__functions.c.o\x1b[0m\n'}
+[6.115664] (-) TimerEvent: {}
+[6.173905] (yolov8_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libyolov8_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[6.215789] (-) TimerEvent: {}
+[6.236719] (yolov8_msgs) StdoutLine: {'line': b'[ 14%] Built target yolov8_msgs__rosidl_generator_c\n'}
+[6.253881] (yolov8_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.254243] (yolov8_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.254402] (yolov8_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.315936] (-) TimerEvent: {}
+[6.416452] (-) TimerEvent: {}
+[6.517002] (-) TimerEvent: {}
+[6.617513] (-) TimerEvent: {}
+[6.718000] (-) TimerEvent: {}
+[6.818482] (-) TimerEvent: {}
+[6.918993] (-) TimerEvent: {}
+[7.019502] (-) TimerEvent: {}
+[7.119978] (-) TimerEvent: {}
+[7.220401] (-) TimerEvent: {}
+[7.249984] (yolov8_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/bounding_box2_d__type_support.cpp.o\x1b[0m\n'}
+[7.251266] (yolov8_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point2_d__type_support.cpp.o\x1b[0m\n'}
+[7.251995] (yolov8_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[7.252297] (yolov8_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/point2_d__type_support.cpp.o\x1b[0m\n'}
+[7.252529] (yolov8_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/vector2__type_support.cpp.o\x1b[0m\n'}
+[7.261756] (yolov8_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/mask__type_support.cpp.o\x1b[0m\n'}
+[7.263454] (yolov8_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[7.320576] (-) TimerEvent: {}
+[7.421135] (-) TimerEvent: {}
+[7.521674] (-) TimerEvent: {}
+[7.622209] (-) TimerEvent: {}
+[7.722779] (-) TimerEvent: {}
+[7.823369] (-) TimerEvent: {}
+[7.837093] (yolov8_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point2_d_array__type_support.cpp.o\x1b[0m\n'}
+[7.840739] (yolov8_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point3_d__type_support.cpp.o\x1b[0m\n'}
+[7.891788] (yolov8_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point3_d_array__type_support.cpp.o\x1b[0m\n'}
+[7.915981] (yolov8_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/detection__type_support.cpp.o\x1b[0m\n'}
+[7.920145] (yolov8_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/point2_d__type_support.cpp.o\x1b[0m\n'}
+[7.923519] (-) TimerEvent: {}
+[7.965025] (yolov8_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/detection_array__type_support.cpp.o\x1b[0m\n'}
+[7.989320] (yolov8_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[8.001132] (yolov8_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/vector2__type_support.cpp.o\x1b[0m\n'}
+[8.004444] (yolov8_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/point2_d__type_support.cpp.o\x1b[0m\n'}
+[8.023682] (-) TimerEvent: {}
+[8.041939] (yolov8_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/vector2__type_support.cpp.o\x1b[0m\n'}
+[8.080047] (yolov8_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/bounding_box2_d__type_support.cpp.o\x1b[0m\n'}
+[8.108452] (yolov8_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[8.123844] (-) TimerEvent: {}
+[8.182130] (yolov8_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/mask__type_support.cpp.o\x1b[0m\n'}
+[8.194864] (yolov8_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point2_d__type_support.cpp.o\x1b[0m\n'}
+[8.224018] (-) TimerEvent: {}
+[8.250592] (yolov8_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/point2_d__type_support.cpp.o\x1b[0m\n'}
+[8.286200] (yolov8_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point2_d_array__type_support.cpp.o\x1b[0m\n'}
+[8.324203] (-) TimerEvent: {}
+[8.402416] (yolov8_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point3_d__type_support.cpp.o\x1b[0m\n'}
+[8.424369] (-) TimerEvent: {}
+[8.438832] (yolov8_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point3_d_array__type_support.cpp.o\x1b[0m\n'}
+[8.454859] (yolov8_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/detection__type_support.cpp.o\x1b[0m\n'}
+[8.472340] (yolov8_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/vector2__type_support.cpp.o\x1b[0m\n'}
+[8.491941] (yolov8_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/point2_d__type_support.c.o\x1b[0m\n'}
+[8.495250] (yolov8_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/vector2__type_support.c.o\x1b[0m\n'}
+[8.515953] (yolov8_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/detection_array__type_support.cpp.o\x1b[0m\n'}
+[8.517047] (yolov8_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[8.524546] (-) TimerEvent: {}
+[8.530805] (yolov8_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/point2_d__type_support_c.cpp.o\x1b[0m\n'}
+[8.557000] (yolov8_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/bounding_box2_d__type_support.c.o\x1b[0m\n'}
+[8.557549] (yolov8_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/bounding_box3_d__type_support.c.o\x1b[0m\n'}
+[8.566355] (yolov8_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/pose2_d__type_support.c.o\x1b[0m\n'}
+[8.572974] (yolov8_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.587568] (yolov8_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.622285] (yolov8_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/mask__type_support.c.o\x1b[0m\n'}
+[8.624723] (-) TimerEvent: {}
+[8.644523] (yolov8_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point2_d__type_support.c.o\x1b[0m\n'}
+[8.648745] (yolov8_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point2_d_array__type_support.c.o\x1b[0m\n'}
+[8.677208] (yolov8_msgs) StdoutLine: {'line': b'[ 51%] Built target yolov8_msgs__rosidl_typesupport_c\n'}
+[8.682420] (yolov8_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point3_d__type_support.c.o\x1b[0m\n'}
+[8.695162] (yolov8_msgs) StdoutLine: {'line': b'[ 52%] Built target yolov8_msgs__rosidl_typesupport_cpp\n'}
+[8.702528] (yolov8_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point3_d_array__type_support.c.o\x1b[0m\n'}
+[8.711637] (yolov8_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/vector2__type_support_c.cpp.o\x1b[0m\n'}
+[8.724921] (-) TimerEvent: {}
+[8.726693] (yolov8_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/pose2_d__type_support_c.cpp.o\x1b[0m\n'}
+[8.732870] (yolov8_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/detection__type_support.c.o\x1b[0m\n'}
+[8.781074] (yolov8_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/detection_array__type_support.c.o\x1b[0m\n'}
+[8.785268] (yolov8_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/bounding_box2_d__type_support_c.cpp.o\x1b[0m\n'}
+[8.820184] (yolov8_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[8.825062] (-) TimerEvent: {}
+[8.861562] (yolov8_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/bounding_box2_d__type_support.cpp.o\x1b[0m\n'}
+[8.894941] (yolov8_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/bounding_box3_d__type_support_c.cpp.o\x1b[0m\n'}
+[8.921317] (yolov8_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[8.924373] (yolov8_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libyolov8_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.925188] (-) TimerEvent: {}
+[9.025696] (-) TimerEvent: {}
+[9.126333] (-) TimerEvent: {}
+[9.130599] (yolov8_msgs) StdoutLine: {'line': b'[ 61%] Built target yolov8_msgs__rosidl_typesupport_introspection_c\n'}
+[9.158206] (yolov8_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/mask__type_support.cpp.o\x1b[0m\n'}
+[9.162548] (yolov8_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/bounding_box2_d__type_support.cpp.o\x1b[0m\n'}
+[9.226519] (-) TimerEvent: {}
+[9.313346] (yolov8_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/mask__type_support_c.cpp.o\x1b[0m\n'}
+[9.326691] (-) TimerEvent: {}
+[9.354157] (yolov8_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[9.426884] (-) TimerEvent: {}
+[9.453337] (yolov8_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/mask__type_support.cpp.o\x1b[0m\n'}
+[9.504517] (yolov8_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point2_d__type_support_c.cpp.o\x1b[0m\n'}
+[9.522255] (yolov8_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point2_d_array__type_support_c.cpp.o\x1b[0m\n'}
+[9.527060] (-) TimerEvent: {}
+[9.569257] (yolov8_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point3_d__type_support_c.cpp.o\x1b[0m\n'}
+[9.627235] (-) TimerEvent: {}
+[9.686754] (yolov8_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point2_d__type_support.cpp.o\x1b[0m\n'}
+[9.727433] (-) TimerEvent: {}
+[9.737448] (yolov8_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point2_d_array__type_support.cpp.o\x1b[0m\n'}
+[9.795245] (yolov8_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point3_d_array__type_support_c.cpp.o\x1b[0m\n'}
+[9.827613] (-) TimerEvent: {}
+[9.894909] (yolov8_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point3_d__type_support.cpp.o\x1b[0m\n'}
+[9.927805] (-) TimerEvent: {}
+[10.028424] (-) TimerEvent: {}
+[10.217160] (yolov8_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point2_d__type_support.cpp.o\x1b[0m\n'}
+[10.217637] (-) TimerEvent: {}
+[10.234700] (yolov8_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/detection__type_support_c.cpp.o\x1b[0m\n'}
+[10.280249] (yolov8_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point3_d_array__type_support.cpp.o\x1b[0m\n'}
+[10.298353] (yolov8_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point2_d_array__type_support.cpp.o\x1b[0m\n'}
+[10.314278] (yolov8_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/detection_array__type_support_c.cpp.o\x1b[0m\n'}
+[10.317840] (-) TimerEvent: {}
+[10.330577] (yolov8_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/detection__type_support.cpp.o\x1b[0m\n'}
+[10.418013] (-) TimerEvent: {}
+[10.472837] (yolov8_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point3_d__type_support.cpp.o\x1b[0m\n'}
+[10.482248] (yolov8_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/detection_array__type_support.cpp.o\x1b[0m\n'}
+[10.518184] (-) TimerEvent: {}
+[10.530111] (yolov8_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point3_d_array__type_support.cpp.o\x1b[0m\n'}
+[10.569998] (yolov8_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/detection__type_support.cpp.o\x1b[0m\n'}
+[10.618370] (-) TimerEvent: {}
+[10.718997] (-) TimerEvent: {}
+[10.754190] (yolov8_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/detection_array__type_support.cpp.o\x1b[0m\n'}
+[10.819187] (-) TimerEvent: {}
+[10.919797] (-) TimerEvent: {}
+[11.020408] (-) TimerEvent: {}
+[11.115498] (yolov8_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.120583] (-) TimerEvent: {}
+[11.221196] (-) TimerEvent: {}
+[11.264348] (yolov8_msgs) StdoutLine: {'line': b'[ 81%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c\n'}
+[11.321351] (-) TimerEvent: {}
+[11.421939] (-) TimerEvent: {}
+[11.522494] (-) TimerEvent: {}
+[11.623005] (-) TimerEvent: {}
+[11.723452] (-) TimerEvent: {}
+[11.823968] (-) TimerEvent: {}
+[11.872344] (yolov8_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.924126] (-) TimerEvent: {}
+[11.969649] (yolov8_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.013769] (yolov8_msgs) StdoutLine: {'line': b'[ 83%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp\n'}
+[12.024203] (-) TimerEvent: {}
+[12.108412] (yolov8_msgs) StdoutLine: {'line': b'[ 83%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[12.124329] (-) TimerEvent: {}
+[12.139124] (yolov8_msgs) StdoutLine: {'line': b'[ 83%] Built target yolov8_msgs\n'}
+[12.171776] (yolov8_msgs) StdoutLine: {'line': b'[ 84%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.224400] (-) TimerEvent: {}
+[12.324812] (-) TimerEvent: {}
+[12.425218] (-) TimerEvent: {}
+[12.525466] (-) TimerEvent: {}
+[12.625678] (-) TimerEvent: {}
+[12.725893] (-) TimerEvent: {}
+[12.826117] (-) TimerEvent: {}
+[12.926322] (-) TimerEvent: {}
+[13.026534] (-) TimerEvent: {}
+[13.126784] (-) TimerEvent: {}
+[13.227087] (-) TimerEvent: {}
+[13.327330] (-) TimerEvent: {}
+[13.427533] (-) TimerEvent: {}
+[13.527732] (-) TimerEvent: {}
+[13.627926] (-) TimerEvent: {}
+[13.728129] (-) TimerEvent: {}
+[13.828342] (-) TimerEvent: {}
+[13.928539] (-) TimerEvent: {}
+[14.028733] (-) TimerEvent: {}
+[14.128964] (-) TimerEvent: {}
+[14.229242] (-) TimerEvent: {}
+[14.329511] (-) TimerEvent: {}
+[14.429888] (-) TimerEvent: {}
+[14.530271] (-) TimerEvent: {}
+[14.630634] (-) TimerEvent: {}
+[14.731001] (-) TimerEvent: {}
+[14.831440] (-) TimerEvent: {}
+[14.931801] (-) TimerEvent: {}
+[15.032126] (-) TimerEvent: {}
+[15.147612] (-) TimerEvent: {}
+[15.248101] (-) TimerEvent: {}
+[15.266196] (prototype_motor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable nurimotor\x1b[0m\n'}
+[15.348252] (-) TimerEvent: {}
+[15.448831] (-) TimerEvent: {}
+[15.470993] (yolov8_msgs) StdoutLine: {'line': b'[ 84%] Built target yolov8_msgs__py\n'}
+[15.476844] (prototype_motor) StdoutLine: {'line': b'[100%] Built target nurimotor\n'}
+[15.495625] (prototype_motor) CommandEnded: {'returncode': 0}
+[15.503419] (yolov8_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_pose2_d_s.c.o\x1b[0m\n'}
+[15.504100] (yolov8_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point2_d_array_s.c.o\x1b[0m\n'}
+[15.505497] (yolov8_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_point2_d_s.c.o\x1b[0m\n'}
+[15.505802] (yolov8_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point2_d_s.c.o\x1b[0m\n'}
+[15.505971] (yolov8_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point3_d_s.c.o\x1b[0m\n'}
+[15.506260] (yolov8_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_detection_s.c.o\x1b[0m\n'}
+[15.506687] (yolov8_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_mask_s.c.o\x1b[0m\n'}
+[15.507092] (yolov8_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_vector2_s.c.o\x1b[0m\n'}
+[15.507349] (yolov8_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point3_d_array_s.c.o\x1b[0m\n'}
+[15.507512] (yolov8_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_bounding_box2_d_s.c.o\x1b[0m\n'}
+[15.507688] (yolov8_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_detection_array_s.c.o\x1b[0m\n'}
+[15.507828] (yolov8_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_bounding_box3_d_s.c.o\x1b[0m\n'}
+[15.549059] (-) TimerEvent: {}
+[15.649650] (-) TimerEvent: {}
+[15.697594] (prototype_motor) JobProgress: {'identifier': 'prototype_motor', 'progress': 'install'}
+[15.711974] (prototype_motor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin/Prototype_Military/prototype_military/build/prototype_motor'], 'cwd': '/home/orin/Prototype_Military/prototype_military/build/prototype_motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_CLIENT', '192.168.68.106 43208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera/lib:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/Prototype_Military/prototype_military/src'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/orin/Prototype_Military/prototype_military/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1423723005660'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/Prototype_Military/prototype_military/build/prototype_motor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.68.106 43208 192.168.68.114 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/orin/Prototype_Military/prototype_military/build/prototype_move:/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.724597] (prototype_motor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.725096] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/lib/prototype_motor/nurimotor\n'}
+[15.726097] (prototype_motor) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/prototype_motor/lib/prototype_motor/nurimotor" to ""\n'}
+[15.726421] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/ament_index/resource_index/package_run_dependencies/prototype_motor\n'}
+[15.726752] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/ament_index/resource_index/parent_prefix_path/prototype_motor\n'}
+[15.727168] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/environment/ament_prefix_path.sh\n'}
+[15.727379] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/environment/ament_prefix_path.dsv\n'}
+[15.727621] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/environment/path.sh\n'}
+[15.727855] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/environment/path.dsv\n'}
+[15.728090] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/local_setup.bash\n'}
+[15.728364] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/local_setup.sh\n'}
+[15.728649] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/local_setup.zsh\n'}
+[15.728934] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/local_setup.dsv\n'}
+[15.729196] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/package.dsv\n'}
+[15.729531] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/ament_index/resource_index/packages/prototype_motor\n'}
+[15.729851] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/cmake/prototype_motorConfig.cmake\n'}
+[15.730052] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/cmake/prototype_motorConfig-version.cmake\n'}
+[15.730285] (prototype_motor) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/package.xml\n'}
+[15.733019] (prototype_motor) CommandEnded: {'returncode': 0}
+[15.749709] (-) TimerEvent: {}
+[15.789413] (prototype_motor) JobEnded: {'identifier': 'prototype_motor', 'rc': 0}
+[15.791700] (yolov8_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolov8_msgs/libyolov8_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[15.849845] (-) TimerEvent: {}
+[15.861582] (yolov8_msgs) StdoutLine: {'line': b'[ 95%] Built target yolov8_msgs__rosidl_generator_py\n'}
+[15.893214] (yolov8_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.893606] (yolov8_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.893770] (yolov8_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.950008] (-) TimerEvent: {}
+[16.050573] (-) TimerEvent: {}
+[16.149200] (yolov8_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[16.150646] (-) TimerEvent: {}
+[16.173018] (yolov8_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[16.207145] (yolov8_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[16.216471] (yolov8_msgs) StdoutLine: {'line': b'[100%] Built target yolov8_msgs__rosidl_typesupport_c__pyext\n'}
+[16.240250] (yolov8_msgs) StdoutLine: {'line': b'[100%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.250782] (-) TimerEvent: {}
+[16.274370] (yolov8_msgs) StdoutLine: {'line': b'[100%] Built target yolov8_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[16.294909] (yolov8_msgs) CommandEnded: {'returncode': 0}
+[16.350920] (-) TimerEvent: {}
+[16.451426] (-) TimerEvent: {}
+[16.551940] (-) TimerEvent: {}
+[16.619625] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'install'}
+[16.620177] (yolov8_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs'], 'cwd': '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_CLIENT', '192.168.68.106 43208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera/lib:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/Prototype_Military/prototype_military/src'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/orin/Prototype_Military/prototype_military/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1423723005660'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.68.106 43208 192.168.68.114 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/orin/Prototype_Military/prototype_military/build/prototype_move:/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.633651] (yolov8_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.634103] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs\n'}
+[16.634435] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[16.634673] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[16.634877] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/mask.h\n'}
+[16.635055] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/point2_d.h\n'}
+[16.635236] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection_array.h\n'}
+[16.635429] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/pose2_d.h\n'}
+[16.635616] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point2_d.h\n'}
+[16.635793] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[16.635969] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__functions.c\n'}
+[16.636205] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__type_support.h\n'}
+[16.636403] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__type_support.h\n'}
+[16.636597] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__struct.h\n'}
+[16.636797] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__struct.h\n'}
+[16.637003] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__functions.h\n'}
+[16.637214] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__functions.h\n'}
+[16.637422] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__type_support.h\n'}
+[16.637618] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__type_support.h\n'}
+[16.637815] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__functions.h\n'}
+[16.638023] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__functions.h\n'}
+[16.638241] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__functions.h\n'}
+[16.638452] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__functions.c\n'}
+[16.638663] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__functions.h\n'}
+[16.638870] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__type_support.h\n'}
+[16.639063] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__functions.c\n'}
+[16.639270] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__struct.h\n'}
+[16.639640] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__struct.h\n'}
+[16.639838] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__functions.h\n'}
+[16.640045] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__struct.h\n'}
+[16.640263] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__functions.c\n'}
+[16.640471] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__functions.c\n'}
+[16.640674] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__functions.c\n'}
+[16.640907] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__type_support.h\n'}
+[16.641110] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__functions.c\n'}
+[16.641332] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__functions.h\n'}
+[16.641562] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__functions.c\n'}
+[16.641763] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__functions.c\n'}
+[16.641967] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__functions.c\n'}
+[16.642175] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__struct.h\n'}
+[16.642372] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__struct.h\n'}
+[16.642570] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__struct.h\n'}
+[16.642760] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__struct.h\n'}
+[16.642952] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__functions.h\n'}
+[16.643177] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__functions.h\n'}
+[16.643386] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__type_support.h\n'}
+[16.643580] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__functions.c\n'}
+[16.643788] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__struct.h\n'}
+[16.643983] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__struct.h\n'}
+[16.644176] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__type_support.h\n'}
+[16.644371] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__type_support.h\n'}
+[16.644559] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__functions.c\n'}
+[16.644822] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__functions.h\n'}
+[16.645142] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__type_support.h\n'}
+[16.645339] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__struct.h\n'}
+[16.645531] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__type_support.h\n'}
+[16.645720] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__type_support.h\n'}
+[16.645915] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__functions.h\n'}
+[16.646140] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point2_d_array.h\n'}
+[16.646326] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point3_d_array.h\n'}
+[16.646516] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection.h\n'}
+[16.646699] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/bounding_box3_d.h\n'}
+[16.646885] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.647073] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point3_d.h\n'}
+[16.647260] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/bounding_box2_d.h\n'}
+[16.647446] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/vector2.h\n'}
+[16.647825] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh\n'}
+[16.648092] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv\n'}
+[16.648451] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so\n'}
+[16.649276] (yolov8_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so" to ""\n'}
+[16.649437] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[16.649608] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[16.649730] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.649901] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[16.650051] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h\n'}
+[16.650202] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[16.650363] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h\n'}
+[16.650508] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_c.h\n'}
+[16.650682] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[16.650880] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_c.h\n'}
+[16.651078] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[16.651270] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_c.h\n'}
+[16.651466] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_c.h\n'}
+[16.651666] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[16.651862] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[16.652000] (-) TimerEvent: {}
+[16.652201] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[16.652378] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[16.653146] (yolov8_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.653311] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[16.653485] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[16.653624] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.653771] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[16.653893] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__type_support.c\n'}
+[16.654033] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_c.h\n'}
+[16.654172] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h\n'}
+[16.654334] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h\n'}
+[16.654529] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h\n'}
+[16.654729] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__type_support.c\n'}
+[16.654955] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_c.h\n'}
+[16.655155] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_introspection_c.h\n'}
+[16.655356] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__type_support.c\n'}
+[16.655583] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__type_support.c\n'}
+[16.655798] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__type_support.c\n'}
+[16.656016] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__type_support.c\n'}
+[16.656229] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_c.h\n'}
+[16.656432] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_c.h\n'}
+[16.656643] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__type_support.c\n'}
+[16.656870] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__type_support.c\n'}
+[16.657086] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_c.h\n'}
+[16.657281] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__type_support.c\n'}
+[16.657494] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__rosidl_typesupport_introspection_c.h\n'}
+[16.657686] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__type_support.c\n'}
+[16.657892] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__type_support.c\n'}
+[16.658110] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h\n'}
+[16.658309] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__type_support.c\n'}
+[16.658528] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h\n'}
+[16.658822] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so\n'}
+[16.659536] (yolov8_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.659692] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so\n'}
+[16.660261] (yolov8_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so" to ""\n'}
+[16.660411] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[16.660575] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[16.660696] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/bounding_box3_d.hpp\n'}
+[16.660857] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point2_d_array.hpp\n'}
+[16.661045] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point3_d_array.hpp\n'}
+[16.661240] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/mask.hpp\n'}
+[16.661435] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/pose2_d.hpp\n'}
+[16.661627] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/bounding_box2_d.hpp\n'}
+[16.661813] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection_array.hpp\n'}
+[16.661991] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[16.662140] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__traits.hpp\n'}
+[16.662308] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__builder.hpp\n'}
+[16.662508] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__struct.hpp\n'}
+[16.662706] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__builder.hpp\n'}
+[16.662904] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__builder.hpp\n'}
+[16.663102] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__struct.hpp\n'}
+[16.663316] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__struct.hpp\n'}
+[16.663527] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__struct.hpp\n'}
+[16.663738] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__struct.hpp\n'}
+[16.663951] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__traits.hpp\n'}
+[16.664152] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__builder.hpp\n'}
+[16.664350] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__traits.hpp\n'}
+[16.664551] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__struct.hpp\n'}
+[16.664761] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__traits.hpp\n'}
+[16.664981] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__traits.hpp\n'}
+[16.665180] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__traits.hpp\n'}
+[16.665380] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__builder.hpp\n'}
+[16.665584] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__builder.hpp\n'}
+[16.665787] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__struct.hpp\n'}
+[16.666082] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__builder.hpp\n'}
+[16.666284] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__traits.hpp\n'}
+[16.666486] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__struct.hpp\n'}
+[16.666698] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__struct.hpp\n'}
+[16.666913] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__builder.hpp\n'}
+[16.667135] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__struct.hpp\n'}
+[16.667337] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__traits.hpp\n'}
+[16.667537] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__traits.hpp\n'}
+[16.667741] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__traits.hpp\n'}
+[16.667942] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__builder.hpp\n'}
+[16.668147] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__builder.hpp\n'}
+[16.668346] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__traits.hpp\n'}
+[16.668550] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__builder.hpp\n'}
+[16.668749] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__struct.hpp\n'}
+[16.668982] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__traits.hpp\n'}
+[16.669206] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__struct.hpp\n'}
+[16.669407] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__builder.hpp\n'}
+[16.669610] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/point2_d.hpp\n'}
+[16.669799] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection.hpp\n'}
+[16.670002] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/vector2.hpp\n'}
+[16.670195] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point2_d.hpp\n'}
+[16.670379] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point3_d.hpp\n'}
+[16.670650] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[16.670800] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[16.670943] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.671087] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[16.671230] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.671363] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.671538] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.671736] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.671928] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/dds_fastrtps\n'}
+[16.672114] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.672323] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.672524] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.672727] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.672950] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.673171] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.673381] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.673581] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.673896] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.675072] (yolov8_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.675219] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[16.675383] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[16.675527] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[16.675643] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__type_support.cpp\n'}
+[16.675787] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.675931] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.676079] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.676273] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__type_support.cpp\n'}
+[16.676505] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.676707] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.677001] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__type_support.cpp\n'}
+[16.677223] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__type_support.cpp\n'}
+[16.677442] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.677651] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__type_support.cpp\n'}
+[16.677865] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__type_support.cpp\n'}
+[16.678087] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.678293] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.678502] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.678707] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__type_support.cpp\n'}
+[16.678918] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__type_support.cpp\n'}
+[16.679141] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.679347] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__type_support.cpp\n'}
+[16.679562] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__type_support.cpp\n'}
+[16.679799] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__type_support.cpp\n'}
+[16.680016] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__type_support.cpp\n'}
+[16.680233] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.680438] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.680758] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[16.682067] (yolov8_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.682227] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so\n'}
+[16.682853] (yolov8_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[16.683001] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh\n'}
+[16.683251] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv\n'}
+[16.683512] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-3.3.2-py3.10.egg-info\n'}
+[16.683801] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-3.3.2-py3.10.egg-info/top_level.txt\n'}
+[16.684008] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-3.3.2-py3.10.egg-info/dependency_links.txt\n'}
+[16.684193] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-3.3.2-py3.10.egg-info/PKG-INFO\n'}
+[16.684398] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-3.3.2-py3.10.egg-info/SOURCES.txt\n'}
+[16.684648] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs\n'}
+[16.684812] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[16.685166] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/libyolov8_msgs__rosidl_generator_py.so\n'}
+[16.685502] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg\n'}
+[16.685685] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_point2_d.py\n'}
+[16.685908] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d_array_s.c\n'}
+[16.686119] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_point2_d_s.c\n'}
+[16.686314] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d_s.c\n'}
+[16.686520] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_array.py\n'}
+[16.686731] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_pose2_d.py\n'}
+[16.686937] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/__init__.py\n'}
+[16.687134] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d.py\n'}
+[16.687344] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_vector2_s.c\n'}
+[16.687542] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d_array.py\n'}
+[16.687765] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d_array.py\n'}
+[16.687974] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_mask.py\n'}
+[16.688181] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d_array_s.c\n'}
+[16.688386] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box3_d_s.c\n'}
+[16.688588] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box3_d.py\n'}
+[16.688800] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_mask_s.c\n'}
+[16.689022] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection.py\n'}
+[16.689243] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box2_d.py\n'}
+[16.689449] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d_s.c\n'}
+[16.689656] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_s.c\n'}
+[16.689872] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_vector2.py\n'}
+[16.690081] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box2_d_s.c\n'}
+[16.690288] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_pose2_d_s.c\n'}
+[16.690478] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_array_s.c\n'}
+[16.690704] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d.py\n'}
+[16.690915] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[16.691221] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/__init__.py\n'}
+[16.691399] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[16.691659] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[16.691965] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[16.692227] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[16.752074] (-) TimerEvent: {}
+[16.778033] (yolov8_msgs) StdoutLine: {'line': b"Listing '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs'...\n"}
+[16.778272] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/__init__.py'...\n"}
+[16.778397] (yolov8_msgs) StdoutLine: {'line': b"Listing '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg'...\n"}
+[16.778515] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/__init__.py'...\n"}
+[16.778630] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box2_d.py'...\n"}
+[16.778744] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box3_d.py'...\n"}
+[16.778858] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection.py'...\n"}
+[16.778970] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_array.py'...\n"}
+[16.779083] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d.py'...\n"}
+[16.779194] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d_array.py'...\n"}
+[16.779323] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d.py'...\n"}
+[16.779438] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d_array.py'...\n"}
+[16.779550] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_mask.py'...\n"}
+[16.779660] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_point2_d.py'...\n"}
+[16.779772] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_pose2_d.py'...\n"}
+[16.779882] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_vector2.py'...\n"}
+[16.788003] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[16.788676] (yolov8_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[16.789088] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[16.789700] (yolov8_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[16.790054] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[16.790639] (yolov8_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[16.790800] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so\n'}
+[16.791577] (yolov8_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so" to ""\n'}
+[16.791800] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Point2D.idl\n'}
+[16.792077] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Vector2.idl\n'}
+[16.792354] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Pose2D.idl\n'}
+[16.792619] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox2D.idl\n'}
+[16.792929] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox3D.idl\n'}
+[16.793192] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Mask.idl\n'}
+[16.793451] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2D.idl\n'}
+[16.793726] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2DArray.idl\n'}
+[16.793989] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3D.idl\n'}
+[16.794254] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3DArray.idl\n'}
+[16.794520] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Detection.idl\n'}
+[16.794782] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionArray.idl\n'}
+[16.795050] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Point2D.msg\n'}
+[16.795308] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Vector2.msg\n'}
+[16.795578] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Pose2D.msg\n'}
+[16.795839] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox2D.msg\n'}
+[16.796099] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox3D.msg\n'}
+[16.796362] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Mask.msg\n'}
+[16.796636] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2D.msg\n'}
+[16.796907] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2DArray.msg\n'}
+[16.797181] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3D.msg\n'}
+[16.797440] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3DArray.msg\n'}
+[16.797711] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Detection.msg\n'}
+[16.797975] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionArray.msg\n'}
+[16.798343] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs\n'}
+[16.798690] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs\n'}
+[16.798985] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh\n'}
+[16.799250] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv\n'}
+[16.799524] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh\n'}
+[16.799781] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv\n'}
+[16.800055] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash\n'}
+[16.800322] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh\n'}
+[16.800609] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh\n'}
+[16.800880] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv\n'}
+[16.801154] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/package.dsv\n'}
+[16.801493] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs\n'}
+[16.801885] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport.cmake\n'}
+[16.802169] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.802482] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.802782] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.803087] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.803377] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.803698] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake\n'}
+[16.803989] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.804301] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cppExport.cmake\n'}
+[16.804603] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.804928] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[16.805236] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.805535] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.805835] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[16.806138] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.806453] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport.cmake\n'}
+[16.806755] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[16.807030] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[16.807312] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.807604] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.807883] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.808166] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.808452] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.808730] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.809028] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake\n'}
+[16.809237] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake\n'}
+[16.809490] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/package.xml\n'}
+[16.813375] (yolov8_msgs) CommandEnded: {'returncode': 0}
+[16.852202] (-) TimerEvent: {}
+[16.952616] (-) TimerEvent: {}
+[17.053064] (-) TimerEvent: {}
+[17.153568] (-) TimerEvent: {}
+[17.168154] (yolov8_msgs) JobEnded: {'identifier': 'yolov8_msgs', 'rc': 0}
+[17.170109] (yolov8_ros) JobStarted: {'identifier': 'yolov8_ros'}
+[17.253658] (-) TimerEvent: {}
+[17.354040] (-) TimerEvent: {}
+[17.454443] (-) TimerEvent: {}
+[17.554740] (-) TimerEvent: {}
+[17.655124] (-) TimerEvent: {}
+[17.755477] (-) TimerEvent: {}
+[17.855745] (-) TimerEvent: {}
+[17.956133] (-) TimerEvent: {}
+[18.056488] (-) TimerEvent: {}
+[18.156844] (-) TimerEvent: {}
+[18.257100] (-) TimerEvent: {}
+[18.357370] (-) TimerEvent: {}
+[18.457574] (-) TimerEvent: {}
+[18.557774] (-) TimerEvent: {}
+[18.658008] (-) TimerEvent: {}
+[18.758204] (-) TimerEvent: {}
+[18.827861] (yolov8_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/yolov8_ros', 'build', '--build-base', '/home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build', 'install', '--record', '/home/orin/Prototype_Military/prototype_military/build/yolov8_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orin/Prototype_Military/prototype_military/src/yolov8_ros/yolov8_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orin', 'SSH_CLIENT': '192.168.68.106 43208 22', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera/lib:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/orin', 'OLDPWD': '/home/orin/Prototype_Military/prototype_military/src', 'SSH_TTY': '/dev/pts/0', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson AGX Orin Developer Kit', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/orin/Prototype_Military/prototype_military/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'orin', 'JETSON_MODULE': 'NVIDIA Jetson AGX Orin (64GB ram)', 'JETSON_SERIAL_NUMBER': '1423723005660', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/orin/Prototype_Military/prototype_military/build/yolov8_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.68.106 43208 192.168.68.114 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orin/Prototype_Military/prototype_military/build/yolov8_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages:/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/orin/Prototype_Military/prototype_military/build/prototype_move:/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '6.0', 'JETSON_P_NUMBER': 'p3701-0005', 'CMAKE_PREFIX_PATH': '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs'}, 'shell': False}
+[18.858291] (-) TimerEvent: {}
+[18.958576] (-) TimerEvent: {}
+[19.058790] (-) TimerEvent: {}
+[19.143552] (yolov8_ros) StderrLine: {'line': b"/home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:260: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[19.143800] (yolov8_ros) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[19.158868] (-) TimerEvent: {}
+[19.259099] (-) TimerEvent: {}
+[19.357518] (yolov8_ros) StdoutLine: {'line': b'running egg_info\n'}
+[19.358207] (yolov8_ros) StdoutLine: {'line': b'creating ../../../build/yolov8_ros/yolov8_ros.egg-info\n'}
+[19.359162] (-) TimerEvent: {}
+[19.392060] (yolov8_ros) StdoutLine: {'line': b'writing ../../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO\n'}
+[19.393032] (yolov8_ros) StdoutLine: {'line': b'writing dependency_links to ../../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt\n'}
+[19.393475] (yolov8_ros) StdoutLine: {'line': b'writing entry points to ../../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt\n'}
+[19.393809] (yolov8_ros) StdoutLine: {'line': b'writing requirements to ../../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt\n'}
+[19.394031] (yolov8_ros) StdoutLine: {'line': b'writing top-level names to ../../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt\n'}
+[19.394294] (yolov8_ros) StdoutLine: {'line': b"writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'\n"}
+[19.459246] (-) TimerEvent: {}
+[19.466867] (yolov8_ros) StdoutLine: {'line': b"reading manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'\n"}
+[19.469069] (yolov8_ros) StdoutLine: {'line': b"writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'\n"}
+[19.469408] (yolov8_ros) StdoutLine: {'line': b'running build\n'}
+[19.469576] (yolov8_ros) StdoutLine: {'line': b'running build_py\n'}
+[19.469894] (yolov8_ros) StdoutLine: {'line': b'creating /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build\n'}
+[19.470077] (yolov8_ros) StdoutLine: {'line': b'creating /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib\n'}
+[19.470258] (yolov8_ros) StdoutLine: {'line': b'creating /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros\n'}
+[19.470429] (yolov8_ros) StdoutLine: {'line': b'copying yolov8_ros/yolov8_node.py -> /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros\n'}
+[19.470795] (yolov8_ros) StdoutLine: {'line': b'copying yolov8_ros/detect_3d_node.py -> /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros\n'}
+[19.471144] (yolov8_ros) StdoutLine: {'line': b'copying yolov8_ros/__init__.py -> /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros\n'}
+[19.471413] (yolov8_ros) StdoutLine: {'line': b'copying yolov8_ros/debug_node.py -> /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros\n'}
+[19.471742] (yolov8_ros) StdoutLine: {'line': b'copying yolov8_ros/tracking_node.py -> /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros\n'}
+[19.472417] (yolov8_ros) StdoutLine: {'line': b'running install\n'}
+[19.481792] (yolov8_ros) StdoutLine: {'line': b'running install_lib\n'}
+[19.516532] (yolov8_ros) StdoutLine: {'line': b'creating /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros\n'}
+[19.516791] (yolov8_ros) StdoutLine: {'line': b'copying /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros/yolov8_node.py -> /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros\n'}
+[19.517139] (yolov8_ros) StdoutLine: {'line': b'copying /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros/detect_3d_node.py -> /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros\n'}
+[19.517444] (yolov8_ros) StdoutLine: {'line': b'copying /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros/__init__.py -> /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros\n'}
+[19.517694] (yolov8_ros) StdoutLine: {'line': b'copying /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros/debug_node.py -> /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros\n'}
+[19.517997] (yolov8_ros) StdoutLine: {'line': b'copying /home/orin/Prototype_Military/prototype_military/build/yolov8_ros/build/lib/yolov8_ros/tracking_node.py -> /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros\n'}
+[19.519276] (yolov8_ros) StdoutLine: {'line': b'byte-compiling /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/yolov8_node.py to yolov8_node.cpython-310.pyc\n'}
+[19.522981] (yolov8_ros) StdoutLine: {'line': b'byte-compiling /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/detect_3d_node.py to detect_3d_node.cpython-310.pyc\n'}
+[19.526878] (yolov8_ros) StdoutLine: {'line': b'byte-compiling /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/__init__.py to __init__.cpython-310.pyc\n'}
+[19.527312] (yolov8_ros) StdoutLine: {'line': b'byte-compiling /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/debug_node.py to debug_node.cpython-310.pyc\n'}
+[19.531112] (yolov8_ros) StdoutLine: {'line': b'byte-compiling /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/tracking_node.py to tracking_node.cpython-310.pyc\n'}
+[19.533401] (yolov8_ros) StdoutLine: {'line': b'running install_data\n'}
+[19.533841] (yolov8_ros) StdoutLine: {'line': b'creating /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/share/ament_index\n'}
+[19.534045] (yolov8_ros) StdoutLine: {'line': b'creating /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/share/ament_index/resource_index\n'}
+[19.534254] (yolov8_ros) StdoutLine: {'line': b'creating /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/share/ament_index/resource_index/packages\n'}
+[19.534436] (yolov8_ros) StdoutLine: {'line': b'copying resource/yolov8_ros -> /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/share/ament_index/resource_index/packages\n'}
+[19.534744] (yolov8_ros) StdoutLine: {'line': b'copying package.xml -> /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/share/yolov8_ros\n'}
+[19.534979] (yolov8_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.559319] (-) TimerEvent: {}
+[19.572818] (yolov8_ros) StdoutLine: {'line': b'Copying ../../../build/yolov8_ros/yolov8_ros.egg-info to /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info\n'}
+[19.574757] (yolov8_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[19.659405] (-) TimerEvent: {}
+[19.759662] (-) TimerEvent: {}
+[19.859893] (-) TimerEvent: {}
+[19.878130] (yolov8_ros) StdoutLine: {'line': b'Installing debug_node script to /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/yolov8_ros\n'}
+[19.878575] (yolov8_ros) StdoutLine: {'line': b'Installing detect_3d_node script to /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/yolov8_ros\n'}
+[19.878860] (yolov8_ros) StdoutLine: {'line': b'Installing tracking_node script to /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/yolov8_ros\n'}
+[19.879132] (yolov8_ros) StdoutLine: {'line': b'Installing yolov8_node script to /home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/yolov8_ros\n'}
+[19.879877] (yolov8_ros) StdoutLine: {'line': b"writing list of installed files to '/home/orin/Prototype_Military/prototype_military/build/yolov8_ros/install.log'\n"}
+[19.940946] (yolov8_ros) CommandEnded: {'returncode': 0}
+[19.960096] (yolov8_ros) JobEnded: {'identifier': 'yolov8_ros', 'rc': 0}
+[19.962200] (-) TimerEvent: {}
+[19.962420] (yolov8_bringup) JobStarted: {'identifier': 'yolov8_bringup'}
+[19.974378] (yolov8_bringup) JobProgress: {'identifier': 'yolov8_bringup', 'progress': 'cmake'}
+[19.974734] (yolov8_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/orin/Prototype_Military/prototype_military/src/yolov8_ros/yolov8_bringup', '-DCMAKE_INSTALL_PREFIX=/home/orin/Prototype_Military/prototype_military/install/yolov8_bringup'], 'cwd': '/home/orin/Prototype_Military/prototype_military/build/yolov8_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_CLIENT', '192.168.68.106 43208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera/lib:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/Prototype_Military/prototype_military/src'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/orin/Prototype_Military/prototype_military/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1423723005660'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/orin/Prototype_Military/prototype_military/install/yolov8_ros:/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/Prototype_Military/prototype_military/build/yolov8_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.68.106 43208 192.168.68.114 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages:/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/orin/Prototype_Military/prototype_military/build/prototype_move:/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs:/opt/ros/humble')]), 'shell': False}
+[20.062368] (-) TimerEvent: {}
+[20.066175] (yolov8_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[20.156123] (yolov8_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[20.162433] (-) TimerEvent: {}
+[20.168344] (yolov8_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[20.262610] (-) TimerEvent: {}
+[20.277188] (yolov8_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[20.289286] (yolov8_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[20.289754] (yolov8_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[20.290431] (yolov8_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[20.295803] (yolov8_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[20.362718] (-) TimerEvent: {}
+[20.420809] (yolov8_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[20.433339] (yolov8_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[20.433862] (yolov8_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[20.434665] (yolov8_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[20.438114] (yolov8_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[20.462804] (-) TimerEvent: {}
+[20.563194] (-) TimerEvent: {}
+[20.663598] (-) TimerEvent: {}
+[20.763849] (-) TimerEvent: {}
+[20.864053] (-) TimerEvent: {}
+[20.964247] (-) TimerEvent: {}
+[21.064437] (-) TimerEvent: {}
+[21.164628] (-) TimerEvent: {}
+[21.175673] (yolov8_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[21.264702] (-) TimerEvent: {}
+[21.364970] (-) TimerEvent: {}
+[21.463976] (yolov8_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[21.465031] (-) TimerEvent: {}
+[21.469576] (yolov8_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[21.471302] (yolov8_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/orin/Prototype_Military/prototype_military/build/yolov8_bringup\n'}
+[21.479359] (yolov8_bringup) CommandEnded: {'returncode': 0}
+[21.480419] (yolov8_bringup) JobProgress: {'identifier': 'yolov8_bringup', 'progress': 'build'}
+[21.480859] (yolov8_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin/Prototype_Military/prototype_military/build/yolov8_bringup', '--', '-j12', '-l12'], 'cwd': '/home/orin/Prototype_Military/prototype_military/build/yolov8_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_CLIENT', '192.168.68.106 43208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera/lib:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/Prototype_Military/prototype_military/src'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/orin/Prototype_Military/prototype_military/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1423723005660'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/orin/Prototype_Military/prototype_military/install/yolov8_ros:/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/Prototype_Military/prototype_military/build/yolov8_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.68.106 43208 192.168.68.114 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages:/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/orin/Prototype_Military/prototype_military/build/prototype_move:/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs:/opt/ros/humble')]), 'shell': False}
+[21.538212] (yolov8_bringup) CommandEnded: {'returncode': 0}
+[21.565126] (-) TimerEvent: {}
+[21.568090] (yolov8_bringup) JobProgress: {'identifier': 'yolov8_bringup', 'progress': 'install'}
+[21.568468] (yolov8_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin/Prototype_Military/prototype_military/build/yolov8_bringup'], 'cwd': '/home/orin/Prototype_Military/prototype_military/build/yolov8_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_CLIENT', '192.168.68.106 43208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera/lib:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/Prototype_Military/prototype_military/src'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/orin/Prototype_Military/prototype_military/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orin'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1423723005660'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/orin/Prototype_Military/prototype_military/install/yolov8_ros:/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/orin/Prototype_Military/prototype_military/build/yolov8_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.68.106 43208 192.168.68.114 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/Prototype_Military/prototype_military/install/yolov8_ros/lib/python3.10/site-packages:/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages:/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/orin/Prototype_Military/prototype_military/build/prototype_move:/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs:/opt/ros/humble')]), 'shell': False}
+[21.580766] (yolov8_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.581031] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup//launch\n'}
+[21.581262] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup//launch/yolov8.launch.py\n'}
+[21.581545] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup//launch/yolov9.launch.py\n'}
+[21.581754] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup//launch/yolov8_3d.launch.py\n'}
+[21.581971] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup//launch/yolo-nas.launch.py\n'}
+[21.582148] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup//launch/yolov10.launch.py\n'}
+[21.582560] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/ament_index/resource_index/package_run_dependencies/yolov8_bringup\n'}
+[21.582895] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/ament_index/resource_index/parent_prefix_path/yolov8_bringup\n'}
+[21.583236] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup/environment/ament_prefix_path.sh\n'}
+[21.583539] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup/environment/ament_prefix_path.dsv\n'}
+[21.583753] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup/environment/path.sh\n'}
+[21.583993] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup/environment/path.dsv\n'}
+[21.584284] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup/local_setup.bash\n'}
+[21.584520] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup/local_setup.sh\n'}
+[21.584792] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup/local_setup.zsh\n'}
+[21.585039] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup/local_setup.dsv\n'}
+[21.585276] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup/package.dsv\n'}
+[21.585591] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/ament_index/resource_index/packages/yolov8_bringup\n'}
+[21.585904] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup/cmake/yolov8_bringupConfig.cmake\n'}
+[21.586113] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup/cmake/yolov8_bringupConfig-version.cmake\n'}
+[21.586344] (yolov8_bringup) StdoutLine: {'line': b'-- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_bringup/share/yolov8_bringup/package.xml\n'}
+[21.588955] (yolov8_bringup) CommandEnded: {'returncode': 0}
+[21.641001] (yolov8_bringup) JobEnded: {'identifier': 'yolov8_bringup', 'rc': 0}
+[21.642380] (-) EventReactorShutdown: {}

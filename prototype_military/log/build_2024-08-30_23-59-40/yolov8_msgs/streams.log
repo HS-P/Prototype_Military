@@ -1,0 +1,532 @@
+[0.028s] Invoking command in '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/Prototype_Military/prototype_military/src/yolov8_ros/yolov8_msgs -DCMAKE_INSTALL_PREFIX=/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.211s] -- The CXX compiler identification is GNU 11.4.0
+[0.224s] -- Detecting C compiler ABI info
+[0.337s] -- Detecting C compiler ABI info - done
+[0.349s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.349s] -- Detecting C compile features
+[0.350s] -- Detecting C compile features - done
+[0.355s] -- Detecting CXX compiler ABI info
+[0.486s] -- Detecting CXX compiler ABI info - done
+[0.499s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.499s] -- Detecting CXX compile features
+[0.500s] -- Detecting CXX compile features - done
+[0.503s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.244s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.401s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.405s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.413s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.530s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.576s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.274s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.765s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.414s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.460s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.461s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.512s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.512s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.512s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.512s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.556s] -- Found PythonExtra: .so  
+[3.681s] -- Configuring done
+[3.782s] -- Generating done
+[3.787s] -- Build files have been written to: /home/orin/Prototype_Military/prototype_military/build/yolov8_msgs
+[3.802s] Invoked command in '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/Prototype_Military/prototype_military/src/yolov8_ros/yolov8_msgs -DCMAKE_INSTALL_PREFIX=/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs
+[3.805s] Invoking command in '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/yolov8_msgs -- -j12 -l12
+[3.871s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.887s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.899s] [  1%] Built target ament_cmake_python_copy_yolov8_msgs
+[4.352s] running egg_info
+[4.354s] creating yolov8_msgs.egg-info
+[4.391s] writing yolov8_msgs.egg-info/PKG-INFO
+[4.392s] writing dependency_links to yolov8_msgs.egg-info/dependency_links.txt
+[4.393s] writing top-level names to yolov8_msgs.egg-info/top_level.txt
+[4.393s] writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[4.505s] reading manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[4.507s] writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[4.569s] [  1%] Built target ament_cmake_python_build_yolov8_msgs_egg
+[5.822s] [  1%] Built target yolov8_msgs__cpp
+[5.839s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.839s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.840s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.962s] [  5%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/point2_d__functions.c.o[0m
+[5.963s] [  5%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/vector2__functions.c.o[0m
+[5.964s] [  6%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/bounding_box2_d__functions.c.o[0m
+[5.964s] [  7%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/mask__functions.c.o[0m
+[5.964s] [  8%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/pose2_d__functions.c.o[0m
+[5.964s] [  8%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/bounding_box3_d__functions.c.o[0m
+[5.966s] [  9%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point2_d__functions.c.o[0m
+[5.968s] [ 10%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point3_d__functions.c.o[0m
+[5.977s] [ 11%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point2_d_array__functions.c.o[0m
+[6.061s] [ 11%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point3_d_array__functions.c.o[0m
+[6.066s] [ 12%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/detection__functions.c.o[0m
+[6.068s] [ 13%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/detection_array__functions.c.o[0m
+[6.172s] [ 14%] [32m[1mLinking C shared library libyolov8_msgs__rosidl_generator_c.so[0m
+[6.235s] [ 14%] Built target yolov8_msgs__rosidl_generator_c
+[6.252s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.253s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.253s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.249s] [ 19%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/bounding_box2_d__type_support.cpp.o[0m
+[7.250s] [ 20%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point2_d__type_support.cpp.o[0m
+[7.250s] [ 21%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/pose2_d__type_support.cpp.o[0m
+[7.251s] [ 22%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/point2_d__type_support.cpp.o[0m
+[7.251s] [ 22%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/vector2__type_support.cpp.o[0m
+[7.260s] [ 23%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/mask__type_support.cpp.o[0m
+[7.262s] [ 23%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[7.836s] [ 24%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point2_d_array__type_support.cpp.o[0m
+[7.839s] [ 25%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point3_d__type_support.cpp.o[0m
+[7.890s] [ 26%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point3_d_array__type_support.cpp.o[0m
+[7.914s] [ 26%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/detection__type_support.cpp.o[0m
+[7.919s] [ 27%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/point2_d__type_support.cpp.o[0m
+[7.963s] [ 28%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/detection_array__type_support.cpp.o[0m
+[7.988s] [ 29%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/pose2_d__type_support.cpp.o[0m
+[8.000s] [ 29%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/vector2__type_support.cpp.o[0m
+[8.003s] [ 29%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/point2_d__type_support.cpp.o[0m
+[8.040s] [ 30%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/vector2__type_support.cpp.o[0m
+[8.078s] [ 31%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/bounding_box2_d__type_support.cpp.o[0m
+[8.107s] [ 32%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[8.181s] [ 33%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/mask__type_support.cpp.o[0m
+[8.193s] [ 34%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point2_d__type_support.cpp.o[0m
+[8.249s] [ 35%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/point2_d__type_support.cpp.o[0m
+[8.285s] [ 35%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point2_d_array__type_support.cpp.o[0m
+[8.401s] [ 36%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point3_d__type_support.cpp.o[0m
+[8.437s] [ 37%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point3_d_array__type_support.cpp.o[0m
+[8.453s] [ 38%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/detection__type_support.cpp.o[0m
+[8.471s] [ 39%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/vector2__type_support.cpp.o[0m
+[8.490s] [ 40%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/point2_d__type_support.c.o[0m
+[8.494s] [ 41%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/vector2__type_support.c.o[0m
+[8.514s] [ 42%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/detection_array__type_support.cpp.o[0m
+[8.515s] [ 43%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o[0m
+[8.529s] [ 44%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/point2_d__type_support_c.cpp.o[0m
+[8.555s] [ 45%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/bounding_box2_d__type_support.c.o[0m
+[8.556s] [ 45%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/bounding_box3_d__type_support.c.o[0m
+[8.565s] [ 46%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/pose2_d__type_support.c.o[0m
+[8.571s] [ 47%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_cpp.so[0m
+[8.586s] [ 48%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_c.so[0m
+[8.621s] [ 49%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/mask__type_support.c.o[0m
+[8.643s] [ 50%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point2_d__type_support.c.o[0m
+[8.647s] [ 51%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point2_d_array__type_support.c.o[0m
+[8.676s] [ 51%] Built target yolov8_msgs__rosidl_typesupport_c
+[8.681s] [ 52%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point3_d__type_support.c.o[0m
+[8.694s] [ 52%] Built target yolov8_msgs__rosidl_typesupport_cpp
+[8.701s] [ 53%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point3_d_array__type_support.c.o[0m
+[8.710s] [ 54%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/vector2__type_support_c.cpp.o[0m
+[8.725s] [ 54%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/pose2_d__type_support_c.cpp.o[0m
+[8.731s] [ 54%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/detection__type_support.c.o[0m
+[8.780s] [ 55%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/detection_array__type_support.c.o[0m
+[8.784s] [ 56%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/bounding_box2_d__type_support_c.cpp.o[0m
+[8.819s] [ 57%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/pose2_d__type_support.cpp.o[0m
+[8.860s] [ 58%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/bounding_box2_d__type_support.cpp.o[0m
+[8.893s] [ 59%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/bounding_box3_d__type_support_c.cpp.o[0m
+[8.920s] [ 60%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/bounding_box3_d__type_support.cpp.o[0m
+[8.923s] [ 61%] [32m[1mLinking C shared library libyolov8_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.129s] [ 61%] Built target yolov8_msgs__rosidl_typesupport_introspection_c
+[9.157s] [ 62%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/mask__type_support.cpp.o[0m
+[9.161s] [ 63%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/bounding_box2_d__type_support.cpp.o[0m
+[9.312s] [ 64%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/mask__type_support_c.cpp.o[0m
+[9.353s] [ 65%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o[0m
+[9.452s] [ 65%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/mask__type_support.cpp.o[0m
+[9.503s] [ 66%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point2_d__type_support_c.cpp.o[0m
+[9.521s] [ 67%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point2_d_array__type_support_c.cpp.o[0m
+[9.568s] [ 67%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point3_d__type_support_c.cpp.o[0m
+[9.685s] [ 67%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point2_d__type_support.cpp.o[0m
+[9.736s] [ 68%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point2_d_array__type_support.cpp.o[0m
+[9.794s] [ 69%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point3_d_array__type_support_c.cpp.o[0m
+[9.893s] [ 70%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point3_d__type_support.cpp.o[0m
+[10.216s] [ 71%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point2_d__type_support.cpp.o[0m
+[10.233s] [ 72%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/detection__type_support_c.cpp.o[0m
+[10.279s] [ 73%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point3_d_array__type_support.cpp.o[0m
+[10.297s] [ 74%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point2_d_array__type_support.cpp.o[0m
+[10.313s] [ 75%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/detection_array__type_support_c.cpp.o[0m
+[10.329s] [ 76%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/detection__type_support.cpp.o[0m
+[10.471s] [ 77%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point3_d__type_support.cpp.o[0m
+[10.481s] [ 78%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/detection_array__type_support.cpp.o[0m
+[10.529s] [ 79%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point3_d_array__type_support.cpp.o[0m
+[10.568s] [ 80%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/detection__type_support.cpp.o[0m
+[10.753s] [ 80%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/detection_array__type_support.cpp.o[0m
+[11.114s] [ 81%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.263s] [ 81%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c
+[11.871s] [ 82%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.968s] [ 83%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.012s] [ 83%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp
+[12.107s] [ 83%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp
+[12.138s] [ 83%] Built target yolov8_msgs
+[12.170s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.469s] [ 84%] Built target yolov8_msgs__py
+[15.502s] [ 85%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_pose2_d_s.c.o[0m
+[15.502s] [ 89%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point2_d_array_s.c.o[0m
+[15.504s] [ 85%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_point2_d_s.c.o[0m
+[15.504s] [ 90%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point2_d_s.c.o[0m
+[15.504s] [ 89%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point3_d_s.c.o[0m
+[15.505s] [ 90%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_detection_s.c.o[0m
+[15.505s] [ 90%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_mask_s.c.o[0m
+[15.505s] [ 92%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_vector2_s.c.o[0m
+[15.506s] [ 93%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point3_d_array_s.c.o[0m
+[15.506s] [ 91%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_bounding_box2_d_s.c.o[0m
+[15.506s] [ 94%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_detection_array_s.c.o[0m
+[15.506s] [ 94%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_bounding_box3_d_s.c.o[0m
+[15.790s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_msgs/libyolov8_msgs__rosidl_generator_py.so[0m
+[15.860s] [ 95%] Built target yolov8_msgs__rosidl_generator_py
+[15.892s] [ 97%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.892s] [ 97%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[15.892s] [ 97%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.148s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.171s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.206s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.215s] [100%] Built target yolov8_msgs__rosidl_typesupport_c__pyext
+[16.239s] [100%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext
+[16.273s] [100%] Built target yolov8_msgs__rosidl_typesupport_introspection_c__pyext
+[16.293s] Invoked command in '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/yolov8_msgs -- -j12 -l12
+[16.620s] Invoking command in '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/yolov8_msgs
+[16.632s] -- Install configuration: ""
+[16.632s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs
+[16.633s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[16.633s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[16.633s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/mask.h
+[16.633s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/point2_d.h
+[16.633s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection_array.h
+[16.634s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/pose2_d.h
+[16.634s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point2_d.h
+[16.634s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[16.634s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__functions.c
+[16.634s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__type_support.h
+[16.635s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__type_support.h
+[16.635s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__struct.h
+[16.635s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__struct.h
+[16.635s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__functions.h
+[16.635s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__functions.h
+[16.636s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__type_support.h
+[16.636s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__type_support.h
+[16.636s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__functions.h
+[16.636s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__functions.h
+[16.636s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__functions.h
+[16.637s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__functions.c
+[16.637s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__functions.h
+[16.637s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__type_support.h
+[16.637s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__functions.c
+[16.638s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__struct.h
+[16.638s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__struct.h
+[16.638s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__functions.h
+[16.638s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__struct.h
+[16.639s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__functions.c
+[16.639s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__functions.c
+[16.639s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__functions.c
+[16.639s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__type_support.h
+[16.639s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__functions.c
+[16.640s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__functions.h
+[16.640s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__functions.c
+[16.640s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__functions.c
+[16.640s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__functions.c
+[16.640s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__struct.h
+[16.641s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__struct.h
+[16.641s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__struct.h
+[16.641s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__struct.h
+[16.641s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__functions.h
+[16.641s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__functions.h
+[16.642s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__type_support.h
+[16.642s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__functions.c
+[16.642s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__struct.h
+[16.642s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__struct.h
+[16.642s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__type_support.h
+[16.643s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__type_support.h
+[16.643s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__functions.c
+[16.643s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__functions.h
+[16.643s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__type_support.h
+[16.644s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__struct.h
+[16.644s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__type_support.h
+[16.644s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__type_support.h
+[16.644s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__functions.h
+[16.644s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point2_d_array.h
+[16.645s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point3_d_array.h
+[16.645s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection.h
+[16.645s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/bounding_box3_d.h
+[16.645s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.645s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point3_d.h
+[16.646s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/bounding_box2_d.h
+[16.646s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/vector2.h
+[16.646s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh
+[16.646s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv
+[16.647s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so
+[16.648s] -- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so" to ""
+[16.648s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[16.648s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[16.648s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.648s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[16.648s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[16.648s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[16.649s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h
+[16.649s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_c.h
+[16.649s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+[16.649s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_c.h
+[16.649s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_c.h
+[16.650s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_c.h
+[16.650s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_c.h
+[16.650s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_c.h
+[16.650s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[16.650s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_c.h
+[16.651s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so
+[16.651s] -- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[16.652s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[16.652s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[16.652s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.652s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[16.652s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__type_support.c
+[16.652s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_c.h
+[16.652s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h
+[16.653s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[16.653s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h
+[16.653s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__type_support.c
+[16.653s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+[16.653s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_introspection_c.h
+[16.654s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__type_support.c
+[16.654s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__type_support.c
+[16.654s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__type_support.c
+[16.654s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__type_support.c
+[16.654s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_c.h
+[16.655s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_c.h
+[16.655s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__type_support.c
+[16.655s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__type_support.c
+[16.655s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_c.h
+[16.656s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__type_support.c
+[16.656s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__rosidl_typesupport_introspection_c.h
+[16.656s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__type_support.c
+[16.656s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__type_support.c
+[16.656s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[16.657s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__type_support.c
+[16.657s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[16.657s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so
+[16.658s] -- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so" to ""
+[16.658s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so
+[16.659s] -- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so" to ""
+[16.659s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[16.659s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[16.659s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/bounding_box3_d.hpp
+[16.659s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point2_d_array.hpp
+[16.659s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point3_d_array.hpp
+[16.659s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/mask.hpp
+[16.660s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/pose2_d.hpp
+[16.660s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/bounding_box2_d.hpp
+[16.660s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection_array.hpp
+[16.660s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[16.660s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__traits.hpp
+[16.661s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__builder.hpp
+[16.661s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__struct.hpp
+[16.661s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__builder.hpp
+[16.661s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__builder.hpp
+[16.661s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__struct.hpp
+[16.662s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__struct.hpp
+[16.662s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__struct.hpp
+[16.662s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__struct.hpp
+[16.662s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__traits.hpp
+[16.662s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__builder.hpp
+[16.663s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__traits.hpp
+[16.663s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__struct.hpp
+[16.663s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__traits.hpp
+[16.663s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__traits.hpp
+[16.663s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__traits.hpp
+[16.664s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__builder.hpp
+[16.664s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__builder.hpp
+[16.664s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__struct.hpp
+[16.664s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__builder.hpp
+[16.665s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__traits.hpp
+[16.665s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__struct.hpp
+[16.665s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__struct.hpp
+[16.665s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__builder.hpp
+[16.665s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__struct.hpp
+[16.666s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__traits.hpp
+[16.666s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__traits.hpp
+[16.666s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__traits.hpp
+[16.666s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__builder.hpp
+[16.666s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__builder.hpp
+[16.667s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__traits.hpp
+[16.667s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__builder.hpp
+[16.667s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__struct.hpp
+[16.667s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__traits.hpp
+[16.667s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__struct.hpp
+[16.668s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__builder.hpp
+[16.668s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/point2_d.hpp
+[16.668s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection.hpp
+[16.668s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/vector2.hpp
+[16.668s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point2_d.hpp
+[16.669s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point3_d.hpp
+[16.669s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[16.669s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[16.669s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.669s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[16.669s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[16.670s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[16.670s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[16.670s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[16.670s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/dds_fastrtps
+[16.670s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[16.671s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[16.671s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[16.671s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[16.671s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[16.671s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[16.672s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_cpp.hpp
+[16.672s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_cpp.hpp
+[16.672s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so
+[16.673s] -- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.674s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[16.674s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[16.674s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[16.674s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__type_support.cpp
+[16.674s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[16.674s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp
+[16.674s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__rosidl_typesupport_introspection_cpp.hpp
+[16.675s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__type_support.cpp
+[16.675s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+[16.675s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[16.675s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__type_support.cpp
+[16.675s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__type_support.cpp
+[16.676s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_cpp.hpp
+[16.676s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__type_support.cpp
+[16.676s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__type_support.cpp
+[16.676s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp
+[16.677s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_cpp.hpp
+[16.677s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_introspection_cpp.hpp
+[16.677s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__type_support.cpp
+[16.677s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__type_support.cpp
+[16.677s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_cpp.hpp
+[16.678s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__type_support.cpp
+[16.678s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__type_support.cpp
+[16.678s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__type_support.cpp
+[16.678s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__type_support.cpp
+[16.678s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[16.679s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[16.679s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so
+[16.680s] -- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[16.680s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so
+[16.681s] -- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so" to ""
+[16.681s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh
+[16.682s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv
+[16.682s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-3.3.2-py3.10.egg-info
+[16.682s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-3.3.2-py3.10.egg-info/top_level.txt
+[16.682s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-3.3.2-py3.10.egg-info/dependency_links.txt
+[16.682s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-3.3.2-py3.10.egg-info/PKG-INFO
+[16.683s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-3.3.2-py3.10.egg-info/SOURCES.txt
+[16.683s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs
+[16.683s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[16.683s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/libyolov8_msgs__rosidl_generator_py.so
+[16.684s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg
+[16.684s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_point2_d.py
+[16.684s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d_array_s.c
+[16.684s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_point2_d_s.c
+[16.685s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d_s.c
+[16.685s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_array.py
+[16.685s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_pose2_d.py
+[16.685s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/__init__.py
+[16.685s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d.py
+[16.686s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_vector2_s.c
+[16.686s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d_array.py
+[16.686s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d_array.py
+[16.686s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_mask.py
+[16.686s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d_array_s.c
+[16.687s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box3_d_s.c
+[16.687s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box3_d.py
+[16.687s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_mask_s.c
+[16.687s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection.py
+[16.687s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box2_d.py
+[16.688s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d_s.c
+[16.688s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_s.c
+[16.688s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_vector2.py
+[16.688s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box2_d_s.c
+[16.689s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_pose2_d_s.c
+[16.689s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_array_s.c
+[16.689s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d.py
+[16.689s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c
+[16.689s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/__init__.py
+[16.690s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[16.690s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.690s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[16.690s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[16.776s] Listing '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs'...
+[16.777s] Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/__init__.py'...
+[16.777s] Listing '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg'...
+[16.777s] Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/__init__.py'...
+[16.777s] Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box2_d.py'...
+[16.777s] Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box3_d.py'...
+[16.777s] Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection.py'...
+[16.777s] Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_array.py'...
+[16.777s] Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d.py'...
+[16.777s] Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d_array.py'...
+[16.778s] Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d.py'...
+[16.778s] Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d_array.py'...
+[16.778s] Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_mask.py'...
+[16.778s] Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_point2_d.py'...
+[16.778s] Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_pose2_d.py'...
+[16.778s] Compiling '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_vector2.py'...
+[16.786s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[16.787s] -- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[16.787s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[16.788s] -- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[16.788s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[16.789s] -- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[16.789s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so
+[16.790s] -- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so" to ""
+[16.790s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Point2D.idl
+[16.790s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Vector2.idl
+[16.791s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Pose2D.idl
+[16.791s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox2D.idl
+[16.791s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox3D.idl
+[16.791s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Mask.idl
+[16.792s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2D.idl
+[16.792s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2DArray.idl
+[16.792s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3D.idl
+[16.793s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3DArray.idl
+[16.793s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Detection.idl
+[16.793s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionArray.idl
+[16.793s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Point2D.msg
+[16.794s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Vector2.msg
+[16.794s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Pose2D.msg
+[16.794s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox2D.msg
+[16.794s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox3D.msg
+[16.795s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Mask.msg
+[16.795s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2D.msg
+[16.795s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2DArray.msg
+[16.795s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3D.msg
+[16.796s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3DArray.msg
+[16.796s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/Detection.msg
+[16.796s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionArray.msg
+[16.797s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs
+[16.797s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs
+[16.797s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh
+[16.798s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv
+[16.798s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh
+[16.798s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv
+[16.798s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash
+[16.799s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh
+[16.799s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh
+[16.799s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv
+[16.799s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/package.dsv
+[16.800s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs
+[16.800s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport.cmake
+[16.800s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.801s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[16.801s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.801s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.802s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.802s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake
+[16.802s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.803s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cppExport.cmake
+[16.803s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.803s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.803s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.804s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.804s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake
+[16.804s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.805s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport.cmake
+[16.805s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport-noconfig.cmake
+[16.805s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake
+[16.806s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.806s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.806s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.806s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.807s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.807s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.807s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake
+[16.807s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake
+[16.808s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/package.xml
+[16.813s] Invoked command in '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/yolov8_msgs
