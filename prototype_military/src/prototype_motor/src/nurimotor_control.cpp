@@ -36,7 +36,7 @@ private:
         w_l = std::clamp(w_l, -MAX_RPM, MAX_RPM);
         w_r = std::clamp(w_r, -MAX_RPM, MAX_RPM);
         
-        if (linear_velocity =>0){
+        if (linear_velocity >= 0){
             motor_cw(0x00, static_cast<uint8_t>(abs(w_l)));
             motor_ccw(0x01, static_cast<uint8_t>(abs(w_r)));
         } else{
@@ -79,6 +79,6 @@ private:
 
 int main(int argc, char *argv[])
 {
-    rclcpp::init(argc, argv)
+    rclcpp::init(argc, argv);
     return 0;
 }

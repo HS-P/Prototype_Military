@@ -1,1 +1,0 @@
-/home/pi/Prototype_Military/prototype_military/src/prototype_move/setup.py

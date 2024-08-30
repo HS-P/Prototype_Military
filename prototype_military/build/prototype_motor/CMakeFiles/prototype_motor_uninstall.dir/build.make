@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Prototype_Military/prototype_military/src/prototype_motor
+CMAKE_SOURCE_DIR = /home/orin/Prototype_Military/prototype_military/src/prototype_motor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/Prototype_Military/prototype_military/build/prototype_motor
+CMAKE_BINARY_DIR = /home/orin/Prototype_Military/prototype_military/build/prototype_motor
 
 # Utility rule file for prototype_motor_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/prototype_motor_uninstall.dir/compiler_depend.make
 include CMakeFiles/prototype_motor_uninstall.dir/progress.make
 
 CMakeFiles/prototype_motor_uninstall:
-	/usr/bin/cmake -P /home/pi/Prototype_Military/prototype_military/build/prototype_motor/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/orin/Prototype_Military/prototype_military/build/prototype_motor/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 prototype_motor_uninstall: CMakeFiles/prototype_motor_uninstall
 prototype_motor_uninstall: CMakeFiles/prototype_motor_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/prototype_motor_uninstall.dir/clean:
 .PHONY : CMakeFiles/prototype_motor_uninstall.dir/clean
 
 CMakeFiles/prototype_motor_uninstall.dir/depend:
-	cd /home/pi/Prototype_Military/prototype_military/build/prototype_motor && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Prototype_Military/prototype_military/src/prototype_motor /home/pi/Prototype_Military/prototype_military/src/prototype_motor /home/pi/Prototype_Military/prototype_military/build/prototype_motor /home/pi/Prototype_Military/prototype_military/build/prototype_motor /home/pi/Prototype_Military/prototype_military/build/prototype_motor/CMakeFiles/prototype_motor_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/orin/Prototype_Military/prototype_military/build/prototype_motor && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orin/Prototype_Military/prototype_military/src/prototype_motor /home/orin/Prototype_Military/prototype_military/src/prototype_motor /home/orin/Prototype_Military/prototype_military/build/prototype_motor /home/orin/Prototype_Military/prototype_military/build/prototype_motor /home/orin/Prototype_Military/prototype_military/build/prototype_motor/CMakeFiles/prototype_motor_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/prototype_motor_uninstall.dir/depend
 

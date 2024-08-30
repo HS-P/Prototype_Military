@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pi/Prototype_Military/prototype_military/src/prototype_motor/src/nurimotor_control.cpp" "CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o" "gcc" "CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o.d"
+  "/home/orin/Prototype_Military/prototype_military/src/prototype_motor/src/nurimotor_control.cpp" "CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o" "gcc" "CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o.d"
   )
 
 # Targets to which this target links.
