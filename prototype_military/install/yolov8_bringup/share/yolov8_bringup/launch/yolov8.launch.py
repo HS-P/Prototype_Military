@@ -1,24 +1,7 @@
-# Copyright (C) 2023  Miguel Ángel González Santamarta
-
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-
 from launch import LaunchDescription
 from launch_ros.actions import Node
 from launch.substitutions import LaunchConfiguration
 from launch.actions import DeclareLaunchArgument
-
 
 def generate_launch_description():
 
@@ -65,7 +48,7 @@ def generate_launch_description():
     input_image_topic = LaunchConfiguration("input_image_topic")
     input_image_topic_cmd = DeclareLaunchArgument(
         "input_image_topic",
-        default_value="/camera/rgb/image_raw",
+        default_value="/yolo/realsense2_camera/color/image_raw",  # RealSense의 컬러 이미지 토픽
         description="Name of the input image topic")
 
     image_reliability = LaunchConfiguration("image_reliability")
@@ -81,9 +64,33 @@ def generate_launch_description():
         default_value="yolo",
         description="Namespace for the nodes")
 
+    usb_port_id = LaunchConfiguration("usb_port_id")
+    usb_port_id_cmd = DeclareLaunchArgument(
+        "usb_port_id",
+        default_value="2-3.1",  # 사용하려는 USB 포트 ID
+        description="USB port ID to which the RealSense camera is connected"
+    )
+
     #
     # NODES
     #
+    realsense_node_cmd = Node(
+        package="realsense2_camera",
+        executable="realsense2_camera_node",
+        namespace=namespace,
+        name="realsense2_camera",
+        output="screen",
+        parameters=[{
+            "enable_color": True,
+            "enable_depth": True,
+            "enable_infra1": False,
+            "enable_infra2": False,
+            "rgb_camera.color_profile": "1280,720,20",
+            "depth_module.depth_profile": "1280,720,20",
+            "usb_port_id": usb_port_id
+        }]
+    )
+
     detector_node_cmd = Node(
         package="yolov8_ros",
         executable="yolov8_node",
@@ -135,7 +142,9 @@ def generate_launch_description():
     ld.add_action(input_image_topic_cmd)
     ld.add_action(image_reliability_cmd)
     ld.add_action(namespace_cmd)
+    ld.add_action(usb_port_id_cmd)  # USB 포트 ID 등록
 
+    ld.add_action(realsense_node_cmd)  # RealSense 노드 추가
     ld.add_action(detector_node_cmd)
     ld.add_action(tracking_node_cmd)
     ld.add_action(debug_node_cmd)
