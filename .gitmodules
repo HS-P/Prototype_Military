@@ -7,3 +7,6 @@
 [submodule "prototype_military/src/yolov8_ros"]
 	path = prototype_military/src/yolov8_ros
 	url = https://github.com/mgonzs13/yolov8_ros
+[submodule "prototype_military/src/ydlidar_ros2_driver"]
+	path = prototype_military/src/ydlidar_ros2_driver
+	url = https://github.com/YDLIDAR/ydlidar_ros2_driver.git
