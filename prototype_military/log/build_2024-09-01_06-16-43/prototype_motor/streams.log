@@ -1,0 +1,10 @@
+[0.043s] Invoking command in '/home/orin/Prototype_Military/prototype_military/build/prototype_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/prototype_motor -- -j12 -l12
+[0.541s] [ 50%] [32mBuilding CXX object CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o[0m
+[0.562s] [01m[K/home/orin/Prototype_Military/prototype_military/src/prototype_motor/src/nurimotor_control.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktf2/LinearMath/Quaternion.hpp: No such file or directory
+[0.563s]     5 | #include [01;31m[K"tf2/LinearMath/Quaternion.hpp"[m[K
+[0.563s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.563s] compilation terminated.
+[0.568s] gmake[2]: *** [CMakeFiles/nurimotor.dir/build.make:76: CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o] Error 1
+[0.568s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nurimotor.dir/all] Error 2
+[0.569s] gmake: *** [Makefile:146: all] Error 2
+[0.573s] Invoked command in '/home/orin/Prototype_Military/prototype_military/build/prototype_motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/prototype_motor -- -j12 -l12

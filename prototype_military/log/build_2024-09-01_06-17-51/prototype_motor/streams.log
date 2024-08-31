@@ -1,0 +1,39 @@
+[0.044s] Invoking command in '/home/orin/Prototype_Military/prototype_military/build/prototype_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/prototype_motor -- -j12 -l12
+[0.549s] [ 50%] [32mBuilding CXX object CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o[0m
+[7.748s] [01m[K/home/orin/Prototype_Military/prototype_military/src/prototype_motor/src/nurimotor_control.cpp:[m[K In member function ‘[01m[Kvoid MotorControlNode::velocity_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.749s] [01m[K/home/orin/Prototype_Military/prototype_military/src/prototype_motor/src/nurimotor_control.cpp:52:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kclamp(float&, double, double)[m[K’
+[7.749s]    52 |         linear_velocity = [01;31m[Kstd::clamp(linear_velocity, -LINEAR_MAX, LINEAR_MAX)[m[K
+[7.749s]       |                           [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.749s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[7.749s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[7.749s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.749s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.750s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.750s]                  from [01m[K/home/orin/Prototype_Military/prototype_military/src/prototype_motor/src/nurimotor_control.cpp:2[m[K:
+[7.750s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&)[m[K’
+[7.750s]  3656 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
+[7.750s]       |     [01;36m[K^~~~~[m[K
+[7.750s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.750s] [01m[K/home/orin/Prototype_Military/prototype_military/src/prototype_motor/src/nurimotor_control.cpp:52:37:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[7.750s]    52 |         linear_velocity = [01;36m[Kstd::clamp(linear_velocity, -LINEAR_MAX, LINEAR_MAX)[m[K
+[7.751s]       |                           [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.751s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[7.751s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[7.751s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.751s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.751s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.751s]                  from [01m[K/home/orin/Prototype_Military/prototype_military/src/prototype_motor/src/nurimotor_control.cpp:2[m[K:
+[7.751s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&, _Compare)[m[K’
+[7.752s]  3674 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
+[7.752s]       |     [01;36m[K^~~~~[m[K
+[7.752s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.752s] [01m[K/home/orin/Prototype_Military/prototype_military/src/prototype_motor/src/nurimotor_control.cpp:52:37:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[7.752s]    52 |         linear_velocity = [01;36m[Kstd::clamp(linear_velocity, -LINEAR_MAX, LINEAR_MAX)[m[K
+[7.752s]       |                           [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.752s] [01m[K/home/orin/Prototype_Military/prototype_military/src/prototype_motor/src/nurimotor_control.cpp:58:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+[7.753s]    58 |         } [01;31m[Kelse[m[K {
+[7.753s]       |           [01;31m[K^~~~[m[K
+[14.179s] gmake[2]: *** [CMakeFiles/nurimotor.dir/build.make:76: CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o] Error 1
+[14.179s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nurimotor.dir/all] Error 2
+[14.180s] gmake: *** [Makefile:146: all] Error 2
+[14.184s] Invoked command in '/home/orin/Prototype_Military/prototype_military/build/prototype_motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/prototype_motor -- -j12 -l12

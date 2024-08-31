@@ -33,6 +33,9 @@ class TeleopKeyboard(Node):
                     self.twist.angular.z += 0.1
                 elif key == 'd':
                     self.twist.angular.z -= 0.1
+                elif key == 'x':
+                    self.twist.linear.x -= 0.35
+                    self.twist.angular.z = 0.0
                 elif key == 'q':
                     print("break")
                     break
@@ -44,6 +47,8 @@ class TeleopKeyboard(Node):
 
         except KeyboardInterrupt:
             pass
+        finally:
+            termios.tcsetattr(sys.stdin, termios.TCSADRAIN, termios.tcgetattr(sys.stdin))
 
 def main(args=None):
     rclpy.init(args=args)

@@ -11,6 +11,9 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(Boost REQUIRED COMPONENTS system)
+find_package(nav_msgs REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(tf2 REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -32,7 +35,7 @@ add_executable(nurimotor src/nurimotor_control.cpp)
 
 target_link_libraries(nurimotor ${Boost_LIBRARIES})
 
-ament_target_dependencies(nurimotor rclcpp std_msgs sensor_msgs)
+ament_target_dependencies(nurimotor rclcpp std_msgs sensor_msgs nav_msgs tf2 tf2_ros)
 
 install(TARGETS
   nurimotor

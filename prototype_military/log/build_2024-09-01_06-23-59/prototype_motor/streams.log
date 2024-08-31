@@ -1,0 +1,26 @@
+[0.044s] Invoking command in '/home/orin/Prototype_Military/prototype_military/build/prototype_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/prototype_motor -- -j12 -l12
+[0.546s] [35m[1mConsolidate compiler generated dependencies of target nurimotor[0m
+[0.546s] [ 50%] [32mBuilding CXX object CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o[0m
+[28.901s] [100%] [32m[1mLinking CXX executable nurimotor[0m
+[29.936s] [100%] Built target nurimotor
+[29.957s] Invoked command in '/home/orin/Prototype_Military/prototype_military/build/prototype_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/prototype_motor -- -j12 -l12
+[30.002s] Invoking command in '/home/orin/Prototype_Military/prototype_military/build/prototype_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/prototype_motor
+[30.016s] -- Install configuration: ""
+[30.017s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/lib/prototype_motor/nurimotor
+[30.026s] -- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/prototype_motor/lib/prototype_motor/nurimotor" to ""
+[30.026s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/ament_index/resource_index/package_run_dependencies/prototype_motor
+[30.026s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/ament_index/resource_index/parent_prefix_path/prototype_motor
+[30.027s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/environment/ament_prefix_path.sh
+[30.027s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/environment/ament_prefix_path.dsv
+[30.027s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/environment/path.sh
+[30.027s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/environment/path.dsv
+[30.028s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/local_setup.bash
+[30.028s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/local_setup.sh
+[30.028s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/local_setup.zsh
+[30.028s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/local_setup.dsv
+[30.029s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/package.dsv
+[30.029s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/ament_index/resource_index/packages/prototype_motor
+[30.029s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/cmake/prototype_motorConfig.cmake
+[30.029s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/cmake/prototype_motorConfig-version.cmake
+[30.030s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/package.xml
+[30.035s] Invoked command in '/home/orin/Prototype_Military/prototype_military/build/prototype_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/prototype_motor

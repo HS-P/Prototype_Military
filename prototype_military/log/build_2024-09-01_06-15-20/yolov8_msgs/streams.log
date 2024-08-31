@@ -1,0 +1,34 @@
+[0.047s] Invoking command in '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/yolov8_msgs -- -j12 -l12
+[0.554s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_generator_c[0m
+[0.554s] [  0%] Built target yolov8_msgs__cpp
+[0.554s] [ 11%] Built target ament_cmake_python_copy_yolov8_msgs
+[0.555s] [ 12%] Built target yolov8_msgs__rosidl_generator_c
+[0.555s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_cpp[0m
+[0.555s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.555s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.555s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_c[0m
+[0.555s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.555s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_introspection_c[0m
+[0.555s] [ 24%] Built target yolov8_msgs__rosidl_typesupport_cpp
+[0.556s] [ 35%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp
+[0.556s] [ 47%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp
+[0.556s] [ 69%] Built target yolov8_msgs__rosidl_typesupport_c
+[0.556s] [ 71%] Built target yolov8_msgs__rosidl_typesupport_introspection_c
+[0.556s] [ 83%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c
+[0.556s] [ 83%] Built target yolov8_msgs
+[0.556s] [ 84%] Built target yolov8_msgs__py
+[0.557s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_generator_py[0m
+[0.557s] [ 95%] Built target yolov8_msgs__rosidl_generator_py
+[0.557s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.557s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.557s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_c__pyext[0m
+[0.557s] [ 98%] Built target yolov8_msgs__rosidl_typesupport_c__pyext
+[0.558s] [100%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.558s] [100%] Built target yolov8_msgs__rosidl_typesupport_introspection_c__pyext
+[0.658s] running egg_info
+[0.698s] writing yolov8_msgs.egg-info/PKG-INFO
+[0.699s] writing dependency_links to yolov8_msgs.egg-info/dependency_links.txt
+[0.699s] writing top-level names to yolov8_msgs.egg-info/top_level.txt
+[0.815s] reading manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[0.818s] writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[0.883s] [100%] Built target ament_cmake_python_build_yolov8_msgs_egg

@@ -1,0 +1,518 @@
+[0.248s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.248s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff83c31000>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff83c30a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff83c30a60>>, mixin_verb=('build',))[0m
+[0.331s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.331s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.332s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.332s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.332s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.332s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.332s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/orin/Prototype_Military/prototype_military'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.362s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.362s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.362s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.362s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.362s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.363s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.363s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.363s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.364s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.364s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.364s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.365s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.365s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.365s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.365s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.365s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.365s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.365s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.365s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.365s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_motor) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_motor) by extension 'ignore'
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_motor) by extension 'ignore_ament_install'
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_motor) by extensions ['colcon_pkg']
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_motor) by extension 'colcon_pkg'
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_motor) by extensions ['colcon_meta']
+[0.367s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_motor) by extension 'colcon_meta'
+[0.367s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_motor) by extensions ['ros']
+[0.367s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_motor) by extension 'ros'
+[0.371s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/prototype_motor' with type 'ros.ament_cmake' and name 'prototype_motor'[0m
+[0.372s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_move) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_move) by extension 'ignore'
+[0.372s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_move) by extension 'ignore_ament_install'
+[0.372s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_move) by extensions ['colcon_pkg']
+[0.372s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_move) by extension 'colcon_pkg'
+[0.372s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_move) by extensions ['colcon_meta']
+[0.372s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_move) by extension 'colcon_meta'
+[0.373s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_move) by extensions ['ros']
+[0.373s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/prototype_move) by extension 'ros'
+[0.374s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/prototype_move' with type 'ros.ament_python' and name 'prototype_move'[0m
+[0.374s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'ignore'
+[0.374s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'ignore_ament_install'
+[0.374s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['colcon_pkg']
+[0.374s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'colcon_pkg'
+[0.375s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['colcon_meta']
+[0.375s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'colcon_meta'
+[0.375s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['ros']
+[0.375s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'ros'
+[0.375s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['cmake', 'python']
+[0.375s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'cmake'
+[0.375s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'python'
+[0.375s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['python_setup_py']
+[0.375s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'python_setup_py'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[0.389s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'[0m
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.391s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'[0m
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'[0m
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'ignore'
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['ros']
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'ros'
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'cmake'
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'python'
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ydlidar_ros2_driver) by extension 'ros'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'[0m
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros) by extension 'ignore'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros) by extension 'ignore_ament_install'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros) by extensions ['colcon_pkg']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros) by extension 'colcon_pkg'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros) by extensions ['colcon_meta']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros) by extension 'colcon_meta'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros) by extensions ['ros']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros) by extension 'ros'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros) by extensions ['cmake', 'python']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros) by extension 'cmake'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros) by extension 'python'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros) by extensions ['python_setup_py']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros) by extension 'python_setup_py'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/docs) by extension 'ignore'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/docs) by extension 'ignore_ament_install'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/docs) by extensions ['colcon_pkg']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/docs) by extension 'colcon_pkg'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/docs) by extensions ['colcon_meta']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/docs) by extension 'colcon_meta'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/docs) by extensions ['ros']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/docs) by extension 'ros'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/docs) by extensions ['cmake', 'python']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/docs) by extension 'cmake'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/docs) by extension 'python'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/docs) by extensions ['python_setup_py']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/docs) by extension 'python_setup_py'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_bringup) by extension 'ignore'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_bringup) by extension 'ignore_ament_install'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_bringup) by extensions ['colcon_pkg']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_bringup) by extension 'colcon_pkg'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_bringup) by extensions ['colcon_meta']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_bringup) by extension 'colcon_meta'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_bringup) by extensions ['ros']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_bringup) by extension 'ros'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/yolov8_ros/yolov8_bringup' with type 'ros.ament_cmake' and name 'yolov8_bringup'[0m
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_msgs) by extension 'ignore'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_msgs) by extension 'ignore_ament_install'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_msgs) by extensions ['colcon_pkg']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_msgs) by extension 'colcon_pkg'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_msgs) by extensions ['colcon_meta']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_msgs) by extension 'colcon_meta'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_msgs) by extensions ['ros']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_msgs) by extension 'ros'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/yolov8_ros/yolov8_msgs' with type 'ros.ament_cmake' and name 'yolov8_msgs'[0m
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_ros) by extension 'ignore'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_ros) by extension 'ignore_ament_install'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_ros) by extensions ['colcon_pkg']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_ros) by extension 'colcon_pkg'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_ros) by extensions ['colcon_meta']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_ros) by extension 'colcon_meta'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_ros) by extensions ['ros']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_ros/yolov8_ros) by extension 'ros'
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/yolov8_ros/yolov8_ros' with type 'ros.ament_python' and name 'yolov8_ros'[0m
+[0.410s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.410s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.410s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.410s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.410s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.443s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.443s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.448s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 9 installed packages in /home/orin/Prototype_Military/install[0m
+[0.450s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 257 installed packages in /opt/ros/humble[0m
+[0.453s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.518s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_motor' build argument 'cmake_args' from command line to 'None'
+[0.518s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_motor' build argument 'cmake_target' from command line to 'None'
+[0.518s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.518s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_motor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.518s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_motor' build argument 'cmake_clean_first' from command line to 'False'
+[0.519s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_motor' build argument 'cmake_force_configure' from command line to 'False'
+[0.519s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_motor' build argument 'ament_cmake_args' from command line to 'None'
+[0.519s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_motor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.519s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.519s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'prototype_motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/Prototype_Military/prototype_military/build/prototype_motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/Prototype_Military/prototype_military/install/prototype_motor', 'merge_install': False, 'path': '/home/orin/Prototype_Military/prototype_military/src/prototype_motor', 'symlink_install': False, 'test_result_base': None}[0m
+[0.520s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_move' build argument 'cmake_args' from command line to 'None'
+[0.520s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_move' build argument 'cmake_target' from command line to 'None'
+[0.520s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_move' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.520s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_move' build argument 'cmake_clean_cache' from command line to 'False'
+[0.520s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_move' build argument 'cmake_clean_first' from command line to 'False'
+[0.520s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_move' build argument 'cmake_force_configure' from command line to 'False'
+[0.520s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_move' build argument 'ament_cmake_args' from command line to 'None'
+[0.520s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_move' build argument 'catkin_cmake_args' from command line to 'None'
+[0.520s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'prototype_move' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.520s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'prototype_move' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/Prototype_Military/prototype_military/build/prototype_move', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/Prototype_Military/prototype_military/install/prototype_move', 'merge_install': False, 'path': '/home/orin/Prototype_Military/prototype_military/src/prototype_move', 'symlink_install': False, 'test_result_base': None}[0m
+[0.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.521s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/Prototype_Military/prototype_military/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/home/orin/Prototype_Military/prototype_military/src/realsense-ros/realsense2_camera_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.522s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.522s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.522s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.522s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.522s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.522s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.522s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.522s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.523s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.523s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/orin/Prototype_Military/prototype_military/src/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}[0m
+[0.523s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_msgs' build argument 'cmake_args' from command line to 'None'
+[0.523s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_msgs' build argument 'cmake_target' from command line to 'None'
+[0.523s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.523s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.524s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.524s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.524s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.524s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.524s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.524s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'yolov8_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs', 'merge_install': False, 'path': '/home/orin/Prototype_Military/prototype_military/src/yolov8_ros/yolov8_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.524s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[0.525s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[0.525s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.525s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.525s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.525s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.525s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.525s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.525s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.525s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/Prototype_Military/prototype_military/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera', 'merge_install': False, 'path': '/home/orin/Prototype_Military/prototype_military/src/realsense-ros/realsense2_camera', 'symlink_install': False, 'test_result_base': None}[0m
+[0.526s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[0.526s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[0.526s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.526s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.526s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.526s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.526s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.526s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.526s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.526s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/Prototype_Military/prototype_military/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/Prototype_Military/prototype_military/install/realsense2_description', 'merge_install': False, 'path': '/home/orin/Prototype_Military/prototype_military/src/realsense-ros/realsense2_description', 'symlink_install': False, 'test_result_base': None}[0m
+[0.527s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'cmake_args' from command line to 'None'
+[0.527s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'cmake_target' from command line to 'None'
+[0.527s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.527s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.527s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.527s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.527s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.527s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.527s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.527s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'yolov8_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/Prototype_Military/prototype_military/build/yolov8_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/Prototype_Military/prototype_military/install/yolov8_ros', 'merge_install': False, 'path': '/home/orin/Prototype_Military/prototype_military/src/yolov8_ros/yolov8_ros', 'symlink_install': False, 'test_result_base': None}[0m
+[0.528s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_bringup' build argument 'cmake_args' from command line to 'None'
+[0.528s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_bringup' build argument 'cmake_target' from command line to 'None'
+[0.528s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.528s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.528s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.528s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.528s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.529s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.529s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.529s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'yolov8_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/Prototype_Military/prototype_military/build/yolov8_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/Prototype_Military/prototype_military/install/yolov8_bringup', 'merge_install': False, 'path': '/home/orin/Prototype_Military/prototype_military/src/yolov8_ros/yolov8_bringup', 'symlink_install': False, 'test_result_base': None}[0m
+[0.529s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.531s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.532s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/orin/Prototype_Military/prototype_military/src/realsense-ros/realsense2_camera_msgs' with build type 'ament_cmake'
+[0.532s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/orin/Prototype_Military/prototype_military/src/realsense-ros/realsense2_camera_msgs'
+[0.536s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.537s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.537s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.544s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/orin/Prototype_Military/prototype_military/src/yolov8_ros/yolov8_msgs' with build type 'ament_cmake'
+[0.544s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/orin/Prototype_Military/prototype_military/src/yolov8_ros/yolov8_msgs'
+[0.545s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.545s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.551s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/orin/Prototype_Military/prototype_military/src/prototype_motor' with build type 'ament_cmake'
+[0.551s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/orin/Prototype_Military/prototype_military/src/prototype_motor'
+[0.552s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.552s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.558s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/orin/Prototype_Military/prototype_military/src/prototype_move' with build type 'ament_python'
+[0.558s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('prototype_move', 'ament_prefix_path')
+[0.559s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/prototype_move/share/prototype_move/hook/ament_prefix_path.ps1'
+[0.560s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/Prototype_Military/prototype_military/install/prototype_move/share/prototype_move/hook/ament_prefix_path.dsv'
+[0.561s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/prototype_move/share/prototype_move/hook/ament_prefix_path.sh'
+[0.562s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.562s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.568s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/orin/Prototype_Military/prototype_military/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[0.568s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/orin/Prototype_Military/prototype_military/src/ydlidar_ros2_driver'
+[0.569s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.569s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.585s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/Prototype_Military/prototype_military/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/realsense2_camera_msgs -- -j12 -l12[0m
+[0.590s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/yolov8_msgs -- -j12 -l12[0m
+[0.595s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/Prototype_Military/prototype_military/build/prototype_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/prototype_motor -- -j12 -l12[0m
+[1.072s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/orin/Prototype_Military/prototype_military/src/prototype_move'
+[1.073s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.073s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.102s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver -- -j12 -l12[0m
+[1.210s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver -- -j12 -l12[0m
+[1.272s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver[0m
+[1.293s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ydlidar_ros2_driver)
+[1.295s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver[0m
+[1.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver' for CMake module files
+[1.300s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver' for CMake config files
+[1.301s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[1.301s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[1.302s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[1.303s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[1.304s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/lib'
+[1.305s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/bin'
+[1.305s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[1.305s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[1.306s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/bin'
+[1.306s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[1.308s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[1.309s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[1.311s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[1.336s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[1.338s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[1.386s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ydlidar_ros2_driver)
+[1.387s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver' for CMake module files
+[1.388s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver' for CMake config files
+[1.389s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[1.389s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[1.390s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[1.391s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[1.392s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/lib'
+[1.392s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/bin'
+[1.392s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[1.393s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[1.393s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/bin'
+[1.394s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[1.395s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[1.396s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[1.397s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[1.398s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[1.399s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[1.442s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/Prototype_Military/prototype_military/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/realsense2_camera_msgs -- -j12 -l12[0m
+[1.446s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/yolov8_msgs -- -j12 -l12[0m
+[1.663s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/Prototype_Military/prototype_military/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/realsense2_camera_msgs[0m
+[1.779s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_camera_msgs)
+[1.779s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs' for CMake module files
+[1.781s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/Prototype_Military/prototype_military/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/realsense2_camera_msgs[0m
+[1.782s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs' for CMake config files
+[1.783s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[1.783s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[1.784s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[1.785s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[1.786s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib'
+[1.786s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[1.787s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[1.788s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[1.788s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[1.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/bin'
+[1.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[1.790s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[1.790s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/bin'
+[1.791s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[1.792s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[1.793s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[1.794s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[1.794s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[1.795s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[1.860s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/yolov8_msgs[0m
+[1.983s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(yolov8_msgs)
+[1.983s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs' for CMake module files
+[1.984s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/Prototype_Military/prototype_military/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/yolov8_msgs[0m
+[1.985s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs' for CMake config files
+[1.986s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[1.987s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[1.988s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[1.988s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[1.990s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib'
+[1.990s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[1.990s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[1.991s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[1.992s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[1.992s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/bin'
+[1.993s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[1.993s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/lib/python3.10/site-packages'
+[1.994s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/bin'
+[1.994s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[1.995s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[1.996s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[1.997s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[1.998s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[1.998s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/orin/Prototype_Military/prototype_military/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[2.002s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_camera_msgs)
+[2.002s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs' for CMake module files
+[2.004s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs' for CMake config files
+[2.005s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[2.005s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[2.006s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[2.007s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[2.008s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib'
+[2.008s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[2.009s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[2.009s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[2.010s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[2.011s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/bin'
+[2.011s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[2.011s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[2.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/bin'
+[2.013s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[2.014s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[2.015s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[2.016s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[2.016s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[2.017s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[2.018s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/orin/Prototype_Military/prototype_military/src/realsense-ros/realsense2_camera' with build type 'ament_cmake'
+[2.018s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/orin/Prototype_Military/prototype_military/src/realsense-ros/realsense2_camera'
+[2.019s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.019s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.030s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/orin/Prototype_Military/prototype_military/src/realsense-ros/realsense2_description' with build type 'ament_cmake'
+[2.030s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/orin/Prototype_Military/prototype_military/src/realsense-ros/realsense2_description'
+[2.031s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.031s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.045s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/Prototype_Military/prototype_military/build/realsense2_camera': AMENT_PREFIX_PATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs:/home/orin/Prototype_Military/install/yolov8_bringup:/home/orin/Prototype_Military/install/yolov8_msgs:/home/orin/Prototype_Military/install/ydlidar_ros2_driver:/home/orin/Prototype_Military/install/realsense2_description:/home/orin/Prototype_Military/install/realsense2_camera:/home/orin/Prototype_Military/install/realsense2_camera_msgs:/home/orin/Prototype_Military/install/prototype_motor:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble LD_LIBRARY_PATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/home/orin/Prototype_Military/install/yolov8_msgs/lib:/home/orin/Prototype_Military/install/realsense2_camera/lib:/home/orin/Prototype_Military/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/orin/Prototype_Military/prototype_military/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera[0m
+[2.051s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/Prototype_Military/prototype_military/build/realsense2_description': AMENT_PREFIX_PATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs:/home/orin/Prototype_Military/install/yolov8_bringup:/home/orin/Prototype_Military/install/yolov8_msgs:/home/orin/Prototype_Military/install/ydlidar_ros2_driver:/home/orin/Prototype_Military/install/realsense2_description:/home/orin/Prototype_Military/install/realsense2_camera:/home/orin/Prototype_Military/install/realsense2_camera_msgs:/home/orin/Prototype_Military/install/prototype_motor:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble LD_LIBRARY_PATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/home/orin/Prototype_Military/install/yolov8_msgs/lib:/home/orin/Prototype_Military/install/realsense2_camera/lib:/home/orin/Prototype_Military/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/realsense2_description -- -j12 -l12[0m
+[2.117s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/Prototype_Military/prototype_military/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs:/home/orin/Prototype_Military/install/yolov8_bringup:/home/orin/Prototype_Military/install/yolov8_msgs:/home/orin/Prototype_Military/install/ydlidar_ros2_driver:/home/orin/Prototype_Military/install/realsense2_description:/home/orin/Prototype_Military/install/realsense2_camera:/home/orin/Prototype_Military/install/realsense2_camera_msgs:/home/orin/Prototype_Military/install/prototype_motor:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble LD_LIBRARY_PATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/home/orin/Prototype_Military/install/yolov8_msgs/lib:/home/orin/Prototype_Military/install/realsense2_camera/lib:/home/orin/Prototype_Military/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/realsense2_description -- -j12 -l12[0m
+[2.161s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/Prototype_Military/prototype_military/build/realsense2_description': AMENT_PREFIX_PATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs:/home/orin/Prototype_Military/install/yolov8_bringup:/home/orin/Prototype_Military/install/yolov8_msgs:/home/orin/Prototype_Military/install/ydlidar_ros2_driver:/home/orin/Prototype_Military/install/realsense2_description:/home/orin/Prototype_Military/install/realsense2_camera:/home/orin/Prototype_Military/install/realsense2_camera_msgs:/home/orin/Prototype_Military/install/prototype_motor:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble LD_LIBRARY_PATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/home/orin/Prototype_Military/install/yolov8_msgs/lib:/home/orin/Prototype_Military/install/realsense2_camera/lib:/home/orin/Prototype_Military/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/realsense2_description[0m
+[2.328s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_description)
+[2.328s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_description' for CMake module files
+[2.329s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/Prototype_Military/prototype_military/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs:/home/orin/Prototype_Military/install/yolov8_bringup:/home/orin/Prototype_Military/install/yolov8_msgs:/home/orin/Prototype_Military/install/ydlidar_ros2_driver:/home/orin/Prototype_Military/install/realsense2_description:/home/orin/Prototype_Military/install/realsense2_camera:/home/orin/Prototype_Military/install/realsense2_camera_msgs:/home/orin/Prototype_Military/install/prototype_motor:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble LD_LIBRARY_PATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/lib:/home/orin/Prototype_Military/install/yolov8_msgs/lib:/home/orin/Prototype_Military/install/realsense2_camera/lib:/home/orin/Prototype_Military/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/orin/Prototype_Military/prototype_military/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/realsense2_description[0m
+[2.330s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_description' for CMake config files
+[2.331s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[2.331s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[2.332s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[2.333s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[2.334s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/bin'
+[2.334s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[2.335s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/lib/python3.10/site-packages'
+[2.335s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/bin'
+[2.336s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/package.ps1'
+[2.337s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/package.dsv'
+[2.338s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/package.sh'
+[2.339s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/package.bash'
+[2.340s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/package.zsh'
+[2.340s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[2.382s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/Prototype_Military/prototype_military/build/prototype_motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/prototype_motor -- -j12 -l12[0m
+[2.384s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_description)
+[2.385s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_description' for CMake module files
+[2.386s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_description' for CMake config files
+[2.387s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[2.387s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[2.389s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[2.390s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[2.391s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/bin'
+[2.391s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[2.391s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/lib/python3.10/site-packages'
+[2.392s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/bin'
+[2.392s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/package.ps1'
+[2.394s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/package.dsv'
+[2.395s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/package.sh'
+[2.396s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/package.bash'
+[2.397s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/realsense2_description/package.zsh'
+[2.398s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/orin/Prototype_Military/prototype_military/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[2.404s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/Prototype_Military/prototype_military/src/prototype_move': PYTHONPATH=/home/orin/Prototype_Military/prototype_military/build/prototype_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prototype_move build --build-base /home/orin/Prototype_Military/prototype_military/build/prototype_move/build install --record /home/orin/Prototype_Military/prototype_military/build/prototype_move/install.log --single-version-externally-managed install_data[0m
+[2.424s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(prototype_motor)
+[2.425s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/prototype_motor' for CMake module files
+[2.426s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/prototype_motor' for CMake config files
+[2.426s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/prototype_motor/bin'
+[2.426s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/prototype_motor/lib/pkgconfig/prototype_motor.pc'
+[2.427s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/prototype_motor/lib/python3.10/site-packages'
+[2.427s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/Prototype_Military/prototype_military/install/prototype_motor/bin'
+[2.428s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/package.ps1'
+[2.429s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/package.dsv'
+[2.430s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/package.sh'
+[2.431s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/package.bash'
+[2.431s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/package.zsh'
+[2.432s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/colcon-core/packages/prototype_motor)
+[11.828s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete was interrupted[0m
+[11.828s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete again[0m
+[11.882s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished[0m
+[11.883s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[11.883s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[11.883s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[11.894s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.894s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.894s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[11.912s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[11.913s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/orin/Prototype_Military/prototype_military/install/local_setup.ps1'
+[11.915s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/orin/Prototype_Military/prototype_military/install/_local_setup_util_ps1.py'
+[11.917s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/orin/Prototype_Military/prototype_military/install/setup.ps1'
+[11.920s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/orin/Prototype_Military/prototype_military/install/local_setup.sh'
+[11.921s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/orin/Prototype_Military/prototype_military/install/_local_setup_util_sh.py'
+[11.922s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/orin/Prototype_Military/prototype_military/install/setup.sh'
+[11.924s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/orin/Prototype_Military/prototype_military/install/local_setup.bash'
+[11.925s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/orin/Prototype_Military/prototype_military/install/setup.bash'
+[11.928s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/orin/Prototype_Military/prototype_military/install/local_setup.zsh'
+[11.929s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/orin/Prototype_Military/prototype_military/install/setup.zsh'

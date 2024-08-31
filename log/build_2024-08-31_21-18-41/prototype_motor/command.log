@@ -1,0 +1,6 @@
+Invoking command in '/home/orin/Prototype_Military/build/prototype_motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/Prototype_Military/prototype_military/src/prototype_motor -DCMAKE_INSTALL_PREFIX=/home/orin/Prototype_Military/install/prototype_motor
+Invoked command in '/home/orin/Prototype_Military/build/prototype_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/Prototype_Military/prototype_military/src/prototype_motor -DCMAKE_INSTALL_PREFIX=/home/orin/Prototype_Military/install/prototype_motor
+Invoking command in '/home/orin/Prototype_Military/build/prototype_motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/build/prototype_motor -- -j12 -l12
+Invoked command in '/home/orin/Prototype_Military/build/prototype_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/build/prototype_motor -- -j12 -l12
+Invoking command in '/home/orin/Prototype_Military/build/prototype_motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/build/prototype_motor
+Invoked command in '/home/orin/Prototype_Military/build/prototype_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/build/prototype_motor
