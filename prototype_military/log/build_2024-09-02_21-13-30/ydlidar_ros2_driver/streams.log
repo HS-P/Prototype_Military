@@ -1,0 +1,121 @@
+[0.503s] Invoking command in '/home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/Prototype_Military/prototype_military/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver
+[0.592s] -- The C compiler identification is GNU 11.4.0
+[0.691s] -- The CXX compiler identification is GNU 11.4.0
+[0.704s] -- Detecting C compiler ABI info
+[0.824s] -- Detecting C compiler ABI info - done
+[0.836s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.837s] -- Detecting C compile features
+[0.837s] -- Detecting C compile features - done
+[0.843s] -- Detecting CXX compiler ABI info
+[0.973s] -- Detecting CXX compiler ABI info - done
+[0.986s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.987s] -- Detecting CXX compile features
+[0.987s] -- Detecting CXX compile features - done
+[0.991s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.749s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.915s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.985s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.992s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.006s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.027s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.056s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.131s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.135s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.272s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.318s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.390s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.405s] -- Looking for pthread.h
+[2.529s] -- Looking for pthread.h - found
+[2.529s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.654s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.656s] -- Found Threads: TRUE  
+[2.750s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.807s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.844s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[2.873s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.042s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.042s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.043s] -- Configured cppcheck include dirs: /home/orin/Prototype_Military/prototype_military/src/ydlidar_ros2_driver/src
+[3.043s] -- Configured cppcheck exclude dirs and/or files: 
+[3.044s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.044s] -- Configured cpplint exclude dirs and/or files: 
+[3.044s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.045s] -- Added test 'lint_cmake' to check CMake code style
+[3.045s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.048s] -- Added test 'uncrustify' to check C / C++ code style
+[3.048s] -- Configured uncrustify additional arguments: 
+[3.049s] -- Added test 'xmllint' to check XML markup files
+[3.052s] -- Configuring done
+[3.081s] -- Generating done
+[3.084s] -- Build files have been written to: /home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver
+[3.106s] Invoked command in '/home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin/Prototype_Military/prototype_military/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver
+[3.109s] Invoking command in '/home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver -- -j12 -l12
+[3.198s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[3.198s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
+[9.544s] [01m[K/home/orin/Prototype_Military/prototype_military/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[9.544s] [01m[K/home/orin/Prototype_Military/prototype_military/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.544s]   169 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[9.544s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[9.545s] [01m[K/home/orin/Prototype_Military/prototype_military/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:170:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.545s]   170 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[9.545s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.545s] [01m[K/home/orin/Prototype_Military/prototype_military/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:171:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.545s]   171 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[9.546s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[9.582s] [01m[K/home/orin/Prototype_Military/prototype_military/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[9.582s] [01m[K/home/orin/Prototype_Military/prototype_military/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.582s]   179 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[9.583s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[9.583s] [01m[K/home/orin/Prototype_Military/prototype_military/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:180:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.583s]   180 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[9.584s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.584s] [01m[K/home/orin/Prototype_Military/prototype_military/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:181:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.584s]   181 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[9.584s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[18.568s] [ 75%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[19.170s] [ 75%] Built target ydlidar_ros2_driver_node
+[23.199s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[23.998s] [100%] Built target ydlidar_ros2_driver_client
+[24.018s] Invoked command in '/home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver -- -j12 -l12
+[24.062s] Invoking command in '/home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver
+[24.076s] -- Install configuration: ""
+[24.076s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[24.080s] -- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node" to ""
+[24.081s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[24.088s] -- Set runtime path of "/home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client" to ""
+[24.088s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch
+[24.088s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[24.088s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[24.088s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[24.089s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params
+[24.089s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[24.089s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[24.089s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[24.089s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[24.089s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[24.089s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[24.090s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[24.090s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[24.090s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[24.090s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[24.091s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[24.091s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup
+[24.091s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[24.091s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config
+[24.091s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[24.091s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[24.092s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[24.092s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[24.092s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[24.093s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[24.093s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[24.093s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[24.093s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[24.094s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[24.094s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[24.094s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[24.095s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[24.095s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[24.095s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[24.095s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[24.100s] Invoked command in '/home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/ydlidar_ros2_driver

@@ -25,6 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             'teleop_keyboard = prototype_move.teleop_keyboard:main',
+            'detect = prototype_move.detection:main',
+            'led = prototype_move.led:main',
         ],
     },
 )

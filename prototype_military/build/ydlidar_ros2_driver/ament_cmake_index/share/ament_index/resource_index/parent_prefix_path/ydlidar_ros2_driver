@@ -1,1 +1,1 @@
-/home/orin/Prototype_Military/install/yolov8_bringup:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/yolov8_msgs:/home/orin/Prototype_Military/install/ydlidar_ros2_driver:/home/orin/Prototype_Military/install/realsense2_description:/home/orin/Prototype_Military/install/realsense2_camera:/home/orin/Prototype_Military/install/realsense2_camera_msgs:/home/orin/Prototype_Military/install/prototype_move:/home/orin/Prototype_Military/install/prototype_motor:/opt/ros/humble
+/opt/ros/humble

@@ -1,0 +1,36 @@
+[1.824s] Invoking command in '/home/orin/Prototype_Military/prototype_military/src/prototype_move': PYTHONPATH=/home/orin/Prototype_Military/prototype_military/build/prototype_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prototype_move build --build-base /home/orin/Prototype_Military/prototype_military/build/prototype_move/build install --record /home/orin/Prototype_Military/prototype_military/build/prototype_move/install.log --single-version-externally-managed install_data
+[2.154s] /home/orin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:260: UserWarning: Unknown distribution option: 'tests_require'
+[2.154s]   warnings.warn(msg)
+[2.380s] running egg_info
+[2.417s] writing ../../build/prototype_move/prototype_move.egg-info/PKG-INFO
+[2.418s] writing dependency_links to ../../build/prototype_move/prototype_move.egg-info/dependency_links.txt
+[2.419s] writing entry points to ../../build/prototype_move/prototype_move.egg-info/entry_points.txt
+[2.419s] writing requirements to ../../build/prototype_move/prototype_move.egg-info/requires.txt
+[2.420s] writing top-level names to ../../build/prototype_move/prototype_move.egg-info/top_level.txt
+[2.498s] reading manifest file '../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'
+[2.501s] writing manifest file '../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'
+[2.501s] running build
+[2.501s] running build_py
+[2.502s] copying prototype_move/detection.py -> /home/orin/Prototype_Military/prototype_military/build/prototype_move/build/lib/prototype_move
+[2.502s] copying prototype_move/__init__.py -> /home/orin/Prototype_Military/prototype_military/build/prototype_move/build/lib/prototype_move
+[2.502s] copying prototype_move/led.py -> /home/orin/Prototype_Military/prototype_military/build/prototype_move/build/lib/prototype_move
+[2.503s] copying prototype_move/teleop_keyboard.py -> /home/orin/Prototype_Military/prototype_military/build/prototype_move/build/lib/prototype_move
+[2.503s] running install
+[2.513s] running install_lib
+[2.551s] copying /home/orin/Prototype_Military/prototype_military/build/prototype_move/build/lib/prototype_move/led.py -> /home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move
+[2.552s] byte-compiling /home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move/led.py to led.cpython-310.pyc
+[2.554s] running install_data
+[2.554s] copying resource/prototype_move -> /home/orin/Prototype_Military/prototype_military/install/prototype_move/share/ament_index/resource_index/packages
+[2.554s] copying package.xml -> /home/orin/Prototype_Military/prototype_military/install/prototype_move/share/prototype_move
+[2.555s] copying package.xml -> /home/orin/Prototype_Military/prototype_military/install/prototype_move/share/prototype_move
+[2.555s] copying launch/prototype_detect_launch.py -> /home/orin/Prototype_Military/prototype_military/install/prototype_move/share/prototype_move/launch
+[2.556s] copying launch/prototype_move_launch.py -> /home/orin/Prototype_Military/prototype_military/install/prototype_move/share/prototype_move/launch
+[2.556s] running install_egg_info
+[2.597s] removing '/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move-0.0.0-py3.10.egg-info' (and everything under it)
+[2.597s] Copying ../../build/prototype_move/prototype_move.egg-info to /home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages/prototype_move-0.0.0-py3.10.egg-info
+[2.599s] running install_scripts
+[2.912s] Installing detect script to /home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/prototype_move
+[2.912s] Installing led script to /home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/prototype_move
+[2.913s] Installing teleop_keyboard script to /home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/prototype_move
+[2.914s] writing list of installed files to '/home/orin/Prototype_Military/prototype_military/build/prototype_move/install.log'
+[2.974s] Invoked command in '/home/orin/Prototype_Military/prototype_military/src/prototype_move' returned '0': PYTHONPATH=/home/orin/Prototype_Military/prototype_military/build/prototype_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/Prototype_Military/prototype_military/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prototype_move build --build-base /home/orin/Prototype_Military/prototype_military/build/prototype_move/build install --record /home/orin/Prototype_Military/prototype_military/build/prototype_move/install.log --single-version-externally-managed install_data

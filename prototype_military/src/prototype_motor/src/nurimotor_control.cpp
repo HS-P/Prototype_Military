@@ -43,8 +43,8 @@ private:
         float angular_velocity = msg->angular.z;
 
         // 바퀴 속도 계산 (왼쪽 및 오른쪽)
-        int w_r = ((linear_velocity / WHEEL_RADIUS) + (WHEEL_SEPARATION * angular_velocity) / (2 * WHEEL_RADIUS)) * 60 / (2 * M_PI);
-        int w_l = ((linear_velocity / WHEEL_RADIUS) - (WHEEL_SEPARATION * angular_velocity) / (2 * WHEEL_RADIUS)) * 60 / (2 * M_PI);
+        int w_r = ((linear_velocity / WHEEL_RADIUS) + (WHEEL_SEPARATION * angular_velocity) / (2 * WHEEL_RADIUS)) * 600 / (2 * M_PI);
+        int w_l = ((linear_velocity / WHEEL_RADIUS) - (WHEEL_SEPARATION * angular_velocity) / (2 * WHEEL_RADIUS)) * 600 / (2 * M_PI);
 
         // RPM 제한
         w_l = std::clamp(w_l, -MAX_RPM, MAX_RPM);
@@ -52,13 +52,18 @@ private:
         linear_velocity = std::clamp(linear_velocity, static_cast<float>(-LINEAR_MAX), static_cast<float>(LINEAR_MAX));
         angular_velocity = std::clamp(angular_velocity, static_cast<float>(-ANGULAR_MAX), static_cast<float>(ANGULAR_MAX));
         
-        if (linear_velocity >= 0) {
+        if (w_l >= 0) {
             motor_cw(0x00, static_cast<uint8_t>(abs(w_l)));
-            motor_ccw(0x01, static_cast<uint8_t>(abs(w_r)));
         } else {
             motor_ccw(0x00, static_cast<uint8_t>(abs(w_l)));
+        }
+
+        if (w_r >= 0) {
+            motor_ccw(0x01, static_cast<uint8_t>(abs(w_r)));
+        } else {
             motor_cw(0x01, static_cast<uint8_t>(abs(w_r)));
         }
+
 
         // Odometry 계산
         auto current_time = this->get_clock()->now();

@@ -1,0 +1,22 @@
+[0.045s] Invoking command in '/home/orin/Prototype_Military/prototype_military/build/prototype_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/prototype_military/install/yolov8_ros:/home/orin/Prototype_Military/prototype_military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/prototype_motor -- -j12 -l12
+[0.556s] [100%] Built target nurimotor
+[0.557s] Invoked command in '/home/orin/Prototype_Military/prototype_military/build/prototype_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/prototype_military/install/yolov8_ros:/home/orin/Prototype_Military/prototype_military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/prototype_motor -- -j12 -l12
+[0.609s] Invoking command in '/home/orin/Prototype_Military/prototype_military/build/prototype_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/prototype_military/install/yolov8_ros:/home/orin/Prototype_Military/prototype_military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/prototype_motor
+[0.623s] -- Install configuration: ""
+[0.623s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/lib/prototype_motor/nurimotor
+[0.623s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/ament_index/resource_index/package_run_dependencies/prototype_motor
+[0.624s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/ament_index/resource_index/parent_prefix_path/prototype_motor
+[0.624s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/environment/ament_prefix_path.sh
+[0.624s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/environment/ament_prefix_path.dsv
+[0.624s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/environment/path.sh
+[0.624s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/environment/path.dsv
+[0.625s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/local_setup.bash
+[0.625s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/local_setup.sh
+[0.625s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/local_setup.zsh
+[0.625s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/local_setup.dsv
+[0.625s] -- Installing: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/package.dsv
+[0.625s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/ament_index/resource_index/packages/prototype_motor
+[0.625s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/cmake/prototype_motorConfig.cmake
+[0.626s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/cmake/prototype_motorConfig-version.cmake
+[0.626s] -- Up-to-date: /home/orin/Prototype_Military/prototype_military/install/prototype_motor/share/prototype_motor/package.xml
+[0.629s] Invoked command in '/home/orin/Prototype_Military/prototype_military/build/prototype_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/prototype_military/install/yolov8_ros:/home/orin/Prototype_Military/prototype_military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/orin/Prototype_Military/prototype_military/build/prototype_motor

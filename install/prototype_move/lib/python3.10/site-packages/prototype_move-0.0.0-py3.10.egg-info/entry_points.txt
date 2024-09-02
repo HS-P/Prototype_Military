@@ -1,2 +1,0 @@
-[console_scripts]
-teleop_keyboard = prototype_move.teleop_keyboard:main

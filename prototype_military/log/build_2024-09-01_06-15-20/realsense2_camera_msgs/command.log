@@ -1,1 +1,0 @@
-Invoking command in '/home/orin/Prototype_Military/prototype_military/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/Prototype_Military/install/yolov8_ros:/home/orin/Prototype_Military/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/orin/Prototype_Military/prototype_military/build/realsense2_camera_msgs -- -j12 -l12

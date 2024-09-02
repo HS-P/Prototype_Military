@@ -1,2 +1,4 @@
 [console_scripts]
+detect = prototype_move.detection:main
+led = prototype_move.led:main
 teleop_keyboard = prototype_move.teleop_keyboard:main

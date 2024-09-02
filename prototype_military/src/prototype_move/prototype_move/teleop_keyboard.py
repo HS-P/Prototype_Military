@@ -34,7 +34,7 @@ class TeleopKeyboard(Node):
                 elif key == 'd':
                     self.twist.angular.z -= 0.1
                 elif key == 'x':
-                    self.twist.linear.x -= 0.35
+                    self.twist.linear.x -= 0.1
                     self.twist.angular.z = 0.0
                 elif key == 'q':
                     print("break")

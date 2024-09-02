@@ -54,9 +54,16 @@ def generate_launch_description():
                          name='static_tf_pub_base',
                          arguments=['0', '0', '0.0', '0', '0', '0', '1', 'base_footprint', 'base_link'],
                          )
-
+    scan_to_map = Node(
+            package='tf2_ros',
+            namespace = 'scan_to_map',
+            executable='static_transform_publisher',
+            arguments= ["0", "0", "0", "0", "0", "0", "map", "scan"])
+    
     return LaunchDescription([
         params_declare,
         driver_node,
         tf2_node,
+        tf2_node_base,
+        scan_to_map,
     ])

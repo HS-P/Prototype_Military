@@ -8,9 +8,11 @@ setup.py
 ../../build/prototype_move/prototype_move.egg-info/requires.txt
 ../../build/prototype_move/prototype_move.egg-info/top_level.txt
 ../../build/prototype_move/prototype_move.egg-info/zip-safe
+launch/prototype_detect_launch.py
 launch/prototype_move_launch.py
 prototype_move/__init__.py
 prototype_move/detection.py
+prototype_move/led.py
 prototype_move/teleop_keyboard.py
 resource/prototype_move
 test/test_copyright.py
